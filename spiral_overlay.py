@@ -59,8 +59,12 @@ from matplotlib.colors import LogNorm
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider, Button, RadioButtons
 import sys
+import csv
+
+
 
 #-----------------------------Default/initial values-----------------------------
+csv_filename = "my_csv.csv"
 DEFAULT_ARMS = 2    #Between 1 and 6, inclusive
 DEFAULT_PITCH = 23.0  #Between about -89.12 and 89.12 Anything bigger causes overflow issues.
 DEFAULT_ROTATION = 0.0 #Between -180.0 and 180.0, inclusive
@@ -212,6 +216,29 @@ def Reset(event):
     pitch_slider.reset()
 #End subroutine
 
+
+#Define a new "axis" for the reset button
+
+record_ax = plt.axes([0.1, 0.03, 0.1, 0.04])
+record_button = Button(record_ax, 'Record', color=axcolor, hovercolor='0.975')
+
+
+def Record(event):
+    
+    rotation = rot_slider.val()
+    pitch = pitch_slider.val()
+    
+    row = [str(rotation), str(pitch)]
+    with open(csv_filename, 'w') as csvfile:
+        
+        csvwriter = csv.writer(csvfile)
+
+        csvwriter.writerow(row)
+
+#End subroutine
+
+
+
 reset_button.on_clicked(Reset)
 
 #Initialize a set of radio buttons for colorscale
@@ -267,6 +294,36 @@ def ArmChange(label):
     SpiralPlot(galaxy_image,arm_number,pitch_angle,rotation_angle,colorscale_option,chirality)
     fig.canvas.draw_idle()
 #End subroutine
+
+#-------
+
+
+#Define a new "axis" for the reset button
+
+record_ax = plt.axes([0.1, 0.03, 0.1, 0.04])
+record_button = Button(record_ax, 'Record', color=axcolor, hovercolor='0.975')
+
+
+def Record(event):
+    print("hi")    
+    rotation = rot_slider.val
+    pitch = pitch_slider.val
+    
+    row = [str(rotation), str(pitch), chirality, str(arm_number)]
+    with open(csv_filename, 'a') as csvfile:
+            
+        csvwriter = csv.writer(csvfile)
+        
+        csvwriter.writerows([row])
+
+        csvfile.close()
+
+#End subroutine
+        
+record_button.on_clicked(Record)
+
+#-------
+
 
 arm_radio.on_clicked(ArmChange)
 
