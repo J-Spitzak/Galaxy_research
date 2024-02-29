@@ -8,8 +8,8 @@ from sys import argv
 
 # Download the image
 filename = str(argv[1]) 
-position = (float(argv[2]),float(argv[3]))
-size = int(argv[4])
+position = (float(input("x co-ordonite")),float(input("y-coordonite")))
+size = int(input("size: "))
 
 # Load the image and the WCS
 hdu = fits.open(filename)[0]
@@ -25,5 +25,5 @@ hdu.data = cutout.data
 hdu.header.update(cutout.wcs.to_header())
 
 # Write the cutout to a new FITS file
-cutout_filename = 'example_cutout.fits'
+cutout_filename = str(input(outputFilename))
 hdu.writeto(cutout_filename, overwrite=True)
