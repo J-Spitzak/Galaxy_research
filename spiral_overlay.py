@@ -324,6 +324,10 @@ record_button.on_clicked(Record)
 
 #-------
 
+def Cut(event):
+    radius = rad_slider.val 
+    x_pos = cut_x_slider.val 
+    y_pos = cut_y_slider.val
 
 arm_radio.on_clicked(ArmChange)
 
