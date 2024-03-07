@@ -25,5 +25,5 @@ hdu.data = cutout.data
 hdu.header.update(cutout.wcs.to_header())
 
 # Write the cutout to a new FITS file
-cutout_filename = str(input(outputFilename))
+cutout_filename = (str(input(galaxy name)) + "-corrected.fits")
 hdu.writeto(cutout_filename, overwrite=True)
