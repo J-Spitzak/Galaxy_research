@@ -61,7 +61,8 @@ from matplotlib.widgets import Slider, Button, RadioButtons
 import sys
 import csv
 
-
+Gal_Name = str(input("Galaxy Name + number"))
+Band = str(input("band letter"))
 
 #-----------------------------Default/initial values-----------------------------
 csv_filename = "my_csv.csv"
@@ -309,7 +310,7 @@ def Record(event):
     rotation = rot_slider.val
     pitch = pitch_slider.val
     
-    row = [str(rotation), str(pitch), chirality, str(arm_number)]
+    row = [Gal_Name, band, str(rotation), str(pitch), chirality, str(arm_number)]
     with open(csv_filename, 'a') as csvfile:
             
         csvwriter = csv.writer(csvfile)
@@ -323,8 +324,12 @@ def Record(event):
 record_button.on_clicked(Record)
 
 #-------
-
-
+'''
+def Cut(event):
+    radius = rad_slider.val 
+    x_pos = cut_x_slider.val 
+    y_pos = cut_y_slider.val
+'''
 arm_radio.on_clicked(ArmChange)
 
 
