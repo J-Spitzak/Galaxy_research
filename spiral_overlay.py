@@ -65,7 +65,11 @@ Gal_Name = str(input("Galaxy Name + number"))
 Band = str(input("band letter"))
 
 #-----------------------------Default/initial values-----------------------------
+
+#rename this variable with the name of your CSV file
 csv_filename = "my_csv.csv"
+
+
 DEFAULT_ARMS = 2    #Between 1 and 6, inclusive
 DEFAULT_PITCH = 23.0  #Between about -89.12 and 89.12 Anything bigger causes overflow issues.
 DEFAULT_ROTATION = 0.0 #Between -180.0 and 180.0, inclusive
