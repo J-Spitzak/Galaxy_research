@@ -62,7 +62,7 @@ import sys
 import csv
 
 Gal_Name = str(input("Galaxy Name + number"))
-Band = str(input("band letter"))
+band = str(input("band letter"))
 
 #-----------------------------Default/initial values-----------------------------
 
