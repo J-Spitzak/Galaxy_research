@@ -12,6 +12,7 @@ from scipy.ndimage import affine_transform, zoom
 from numpy import ndarray, array, double
 import math
 import sys
+import os
 
 
 inputFile = sys.argv[1]
@@ -65,11 +66,13 @@ else:
     hdu = fits.open(inputFile)[0]
     hdu.data = cutout.data
     hdu.header.update(cutout.wcs.to_header())
-    cutout_filename = (inputFile + "_" + str(bandLetter) + "_corrected")
-    #hdu.writeto(cutout_filename, overwrite=False)
+    cutout_filename = (inputFile + "_" + str(bandLetter) + "_corrected.fits")
+    #hdu.writeto(cutout_filename, overwrite=True)
 
-    newImage = fits.open(cutout_filename)
-    newData = newImage[0].data
+    #newImage = fits.open(cutout_filename)
+    #newData = newImage[0].data
+
+    newData = cutout.data
 
     plt.imshow(newData,norm=LogNorm(), origin='lower')
     aper.plot(color='white')
@@ -89,7 +92,18 @@ else:
     plt.show()
 
     if (input("write to file? (y/n):")=='y'):
+
+        '''
+        path = (inputFile + "_" + str(bandLetter) + "_corrected.fits")
+        daFile = open(path, 'w')
+        daFile.close()
+        '''
+
+        newImage = fits.open(inputFile)[0]
+
         newImage.data = newData
+        newImage.header.update(cutout.wcs.to_header())
+
         newImage.writeto(cutout_filename, overwrite=True)
         print("written to at " + cutout_filename) 
 
