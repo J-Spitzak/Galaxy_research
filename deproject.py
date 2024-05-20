@@ -100,9 +100,18 @@ else:
         '''
 
         newImage = fits.open(inputFile)[0]
-
+        y_header = int(newData.shape[1])
+        x_header = int(newData.shape[0])
         newImage.data = newData
-        newImage.header.update(cutout.wcs.to_header())
+        #newImage.header.update(cutout.wcs.to_header())
+        newImage.header['NAXIS1'] = x_header
+        newImage.header['NAXIS2'] = y_header
+
+
+        newCutout = Cutout2D(newImage.data, position=(int(y_header/2),int(x_header/2)), size=y_header, wcs=WCS(newImage.header))
+        print("headers:", x_header, y_header)
+        newImage.data = newCutout.data
+        newImage.header.update(newCutout.wcs.to_header())
 
         newImage.writeto(cutout_filename, overwrite=True)
         print("written to at " + cutout_filename) 
