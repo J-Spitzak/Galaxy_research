@@ -8,15 +8,15 @@ from sys import argv
 
 # Download the image
 filename = str(argv[1]) 
-position = (float(input("x co-ordonite")),float(input("y-coordonite")))
-size = int(input("size: "))
+new_position = (float(input("x co-ordonite: ")),float(input("y-coordonite: ")))
+new_size = int(input("diameter: "))
 
 # Load the image and the WCS
 hdu = fits.open(filename)[0]
-wcs = WCS(hdu.header)
+new_wcs = WCS(hdu.header)
 
 # Make the cutout, including the WCS
-cutout = Cutout2D(hdu.data, position=position, size=size, wcs=wcs)
+cutout = Cutout2D(hdu.data, position=new_position, size=new_size, wcs=new_wcs)
 
  # Put the cutout image in the FITS HDU
 hdu.data = cutout.data
@@ -25,5 +25,5 @@ hdu.data = cutout.data
 hdu.header.update(cutout.wcs.to_header())
 
 # Write the cutout to a new FITS file
-cutout_filename = (str(input(galaxy name)) + "-corrected.fits")
+cutout_filename = (str(input("galaxy name: ")) + "-" + str(input("band letter: ")) +  "-corrected.fits")
 hdu.writeto(cutout_filename, overwrite=True)
