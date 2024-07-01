@@ -53,8 +53,9 @@ else:
     
     Angle = math.asin( abs(y_major - y) / Major )
     
-    if x_major - x < 0:
+    if (x_major - x < 0) and (y_major - y >= 0):
         Angle = math.pi - Angle
+    
     geometry = EllipseGeometry(x0=x, y0=y, sma=Major, eps=Ellipticity,pa=Angle)
 
 
