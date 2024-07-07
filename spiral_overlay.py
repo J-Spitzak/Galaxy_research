@@ -64,7 +64,7 @@ import csv
 
 
 #-----------------------------Default/initial values-----------------------------
-csv_filename = "my_csv.csv"
+csv_filename = "Edward_csv.csv"
 DEFAULT_ARMS = 2    #Between 1 and 6, inclusive
 DEFAULT_PITCH = 23.0  #Between about -89.12 and 89.12 Anything bigger causes overflow issues.
 DEFAULT_ROTATION = 0.0 #Between -180.0 and 180.0, inclusive
