@@ -8,3 +8,10 @@ ix:634
 iy:316
 jx:445
 jy:415
+
+Good from NED databases:
+4303
+4430
+4411B
+4411A
+4321

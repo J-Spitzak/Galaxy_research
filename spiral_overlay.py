@@ -61,10 +61,15 @@ from matplotlib.widgets import Slider, Button, RadioButtons
 import sys
 import csv
 
-
+Gal_Name = str(input("Galaxy Name + number"))
+band = str(input("band letter"))
 
 #-----------------------------Default/initial values-----------------------------
+
+#rename this variable with the name of your CSV file
 csv_filename = "Edward_csv.csv"
+
+
 DEFAULT_ARMS = 2    #Between 1 and 6, inclusive
 DEFAULT_PITCH = 23.0  #Between about -89.12 and 89.12 Anything bigger causes overflow issues.
 DEFAULT_ROTATION = 0.0 #Between -180.0 and 180.0, inclusive
@@ -309,7 +314,7 @@ def Record(event):
     rotation = rot_slider.val
     pitch = pitch_slider.val
     
-    row = [str(rotation), str(pitch), chirality, str(arm_number)]
+    row = [Gal_Name, band, str(rotation), str(pitch), chirality, str(arm_number)]
     with open(csv_filename, 'a') as csvfile:
             
         csvwriter = csv.writer(csvfile)
@@ -323,8 +328,12 @@ def Record(event):
 record_button.on_clicked(Record)
 
 #-------
-
-
+'''
+def Cut(event):
+    radius = rad_slider.val 
+    x_pos = cut_x_slider.val 
+    y_pos = cut_y_slider.val
+'''
 arm_radio.on_clicked(ArmChange)
 
 
