@@ -81,8 +81,11 @@ else:
     newData = rotate(input=newData, angle=(Angle * 180 / math.pi))
     plt.imshow(newData,norm=LogNorm(), origin='lower')
     plt.show()
-
+    
     factor = Major/Minor
+    print("factor:", factor)
+    print("Major", Major)
+    print("Minor",Minor)
     #scaleMatrix = array([[1.0, 0.0, 0.0], [0.0, factor, 0.0], [0.0,0.0,1.0]])
     #scaleMatrix = ndarray(shape=[3, 3], buffer=array([[[1/factor, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0,0.0,1.0]],[[1/factor, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0,0.0,1.0]]]),dtype=float)
     #newData = affine_transform(input=newData, matrix=scaleMatrix)
