@@ -1,0 +1,61 @@
+Bad: IC3322(A), 4222, 4298, 4302, 4307, 4312, 4313, 4316, 4330, 4356, 4396, 4402, 4424, 4299, 4429
+
+Most recently completed: 4419
+
+cx:146
+cy:151
+ix:283
+iy:285
+jx:83
+jy:297
+
+To Analyze:
+IC3322   x
+IC3392   _
+NGC4197  _
+NGC4212  _
+NGC4222  x
+NGC4276  _
+NGC_4299  x
+NGC_4303  _
+NGC4312  x
+NGC4316  x
+NGC4330  x
+NGC4356  x
+NGC4388  _
+NGC4394  _
+NGC4402  x
+NGC4411A  _
+NGC4412  _
+NGC4416  _
+NGC4424   x
+NGC4430  _
+IC3322A  x
+NGC4178  _
+NGC4206  _
+NGC4216  _
+NGC4237  _
+NGC4298  x
+NGC4302   x
+NGC4307   x
+NGC4313  x
+NGC4321  _
+NGC4343  _
+NGC4380  _
+NGC4390  _
+NGC4396  x
+NGC4405  _
+NGC4411B  _
+NGC4413   _
+NGC4419    _
+NGC_4429   x
+
+
+
+
+Good from NED databases:
+4303 *
+4430 *
+4411B *
+4411A *
+4321 * showing up on DSS not SDSS, blue correlating to u band
