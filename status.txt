@@ -2,16 +2,16 @@ Bad: IC3322(A), 4222, 4298, 4302, 4307, 4312, 4313, 4316, 4321, 4330, 4356, 4396
 
 Most recently completed: 4419
 
-cx:1304
-cy:746
-ix:1426
-iy:825
-jx:1227
-jy:900
+cx:146
+cy:151
+ix:283
+iy:285
+jx:83
+jy:297
 
 Good from NED databases:
 4303 *
 4430 *
 4411B *
 4411A *
-4321 _ showing up on DSS not SDSS, ask which bands red and blue correlate to
+4321 _ showing up on DSS not SDSS, blue correlating to u band
