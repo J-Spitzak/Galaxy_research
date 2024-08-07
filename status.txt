@@ -11,8 +11,8 @@ jy:297
 
 To Analyze:
 IC3322   x
-IC3392   _
-NGC4197  _
+IC3392   _x
+NGC4197  _*
 NGC4212  _
 NGC4222  x
 NGC4276  _
