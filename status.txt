@@ -39,18 +39,16 @@ NGC4298  x
 NGC4302   x
 NGC4307   x
 NGC4313  x
-NGC4321  _
-NGC4343  _
-NGC4380  _
-NGC4390  _
+NGC4321  _*
+NGC4343  _x
+NGC4380  _x
+NGC4390  _*
 NGC4396  x
-NGC4405  _
-NGC4411B  _
-NGC4413   _
-NGC4419    _
+NGC4405  _x
+NGC4411B  _*
+NGC4413   _x
+NGC4419    _x
 NGC_4429   x
-
-
 
 
 Good from NED databases:
