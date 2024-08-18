@@ -13,20 +13,18 @@ class band():
         self.SFRFUV = []
         self.name = []
     def addRow(self,row):
+        try:       
+            a = float(row[8])
+            b = float(row[6])
+            c = float(row[7])
+        except:
+            return
+        self.SFRAVG.append(float(row[8]))
+        self.SFR100.append(float(row[6]))
+        self.SFRFUV.append(float(row[7]))
+        self.manualPA.append(float(row[3]))
         self.name.append(str(row[0]).strip())
-        self.manualPA.append(float(row[3]))  
-        try:       
-            self.SFRAVG.append(float(row[8]))
-        except:
-            self.SFRAVG.append(0)
-        try:       
-            self.SFR100.append(float(row[6]))
-        except:
-            self.SFR100.append(0)
-        try:       
-            self.SFRFUV.append(float(row[7]))
-        except:
-            self.SFRFUV.append(0)
+
 gband = band('g')
 iband = band('i')
 rband = band('r')
@@ -53,9 +51,9 @@ for row in csv.reader(surveyfile): 		#Read pairs file row by row
     rownum = rownum + 1
 
 
-plt.scatter(gband.manualPA,gband.SFRAVG,color='blue')
-plt.scatter(gband.manualPA,gband.SFR100,color='red')
-plt.scatter(gband.manualPA,gband.SFRFUV,color='green')
+plt.scatter(gband.manualPA,gband.SFR100,color='blue')
+plt.scatter(iband.manualPA,iband.SFR100,color='red')
+plt.scatter(rband.manualPA,rband.SFR100,color='green')
 
 """ plt.scatter(zband.manualPA,zband.SFRAVG,color='purple')
 plt.scatter(uband.manualPA,uband.SFRAVG,color='black')
