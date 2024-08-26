@@ -2,6 +2,7 @@ import csv
 import math
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy import stats
 
 rownum = 0
 class band():
@@ -53,13 +54,22 @@ for row in csv.reader(surveyfile): 		#Read pairs file row by row
     rownum = rownum + 1
 
 
-plt.scatter(gband.manualPA,gband.SFR100,color='blue', label='G Band')
+"""plt.scatter(gband.manualPA,gband.SFR100,color='blue', label='G Band')
 plt.scatter(iband.manualPA,iband.SFR100,color='red', label='I Band')
 plt.scatter(rband.manualPA,rband.SFR100,color='green', label='R Band')
 plt.scatter(uband.manualPA,uband.SFR100,color='orange', label='U Band')
 plt.scatter(zband.manualPA,zband.SFR100,color='purple', label='Z Band')
+"""
 
-plt.plot(np.unique(iband.manualPA), np.poly1d(np.polyfit(iband.manualPA, iband.SFR100, 1))(np.unique(iband.manualPA)))
+Used_band = gband
+
+plt.scatter(Used_band.manualPA,Used_band.SFR100,color='blue', label=(Used_band.letter + " Band"))
+
+slope, intercept, r_value, p_value, std_err = stats.linregress(Used_band.manualPA, Used_band.SFR100)
+line_fit = slope * np.array(Used_band.manualPA) + intercept
+plt.plot(Used_band.manualPA, line_fit, color='red', label='Line of Best Fit')
+
+#plt.plot(np.unique(iband.manualPA), np.poly1d(np.polyfit(iband.manualPA, iband.SFR100, 1))(np.unique(iband.manualPA)))
 
 """ plt.scatter(zband.manualPA,zband.SFRAVG,color='purple')
 plt.scatter(uband.manualPA,uband.SFRAVG,color='black')
