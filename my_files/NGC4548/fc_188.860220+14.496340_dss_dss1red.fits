@@ -1,0 +1,570 @@
+SIMPLE  =                    T /FITS: Compliance                                BITPIX  =                   16 /FITS: I*2 Data                                  NAXIS   =                    2 /FITS: 2-D Image Data                            NAXIS1  =                  177 /FITS: X Dimension                               NAXIS2  =                  177 /FITS: Y Dimension                               EXTEND  =                    T /FITS: File can contain extensions               DATE    = '2024-08-26        '  /FITS: Creation Date                            ORIGIN  = 'STScI/MAST'         /GSSS: STScI Digitized Sky Survey                SURVEY  = 'POSSI-E '           /GSSS: Sky Survey                                REGION  = 'XE435   '           /GSSS: Region Name                               PLATEID = '08MI    '           /GSSS: Plate ID                                  SCANNUM = '00      '           /GSSS: Scan Number                               DSCNDNUM= '00      '           /GSSS: Descendant Number                         TELESCID=                    1 /GSSS: Telescope ID                              BANDPASS=                    8 /GSSS: Bandpass Code                             COPYRGHT= 'STScI/AURA'         /GSSS: Copyright Holder                          SITELAT =               33.356 /Observatory: Latitude                           SITELONG=              116.863 /Observatory: Longitude                          TELESCOP= 'Palomar Schmidt   ' /Observatory: Telescope                          INSTRUME= 'Photographic Plate' /Detector: Photographic Plate                    EMULSION= '103aE   '           /Detector: Emulsion                              FILTER  = 'plexi   '           /Detector: Filter                                PLTSCALE=                67.20 /Detector: Plate Scale arcsec per mm             PLTSIZEX=              355.000 /Detector: Plate X Dimension mm                  PLTSIZEY=              355.000 /Detector: Plate Y Dimension mm                  PLATERA =        187.768620000 /Observation: Field centre RA degrees            PLATEDEC=        17.1830230000 /Observation: Field centre Dec degrees           PLTLABEL= 'E1576   '           /Observation: Plate Label                        DATE-OBS= '1956-03-15T07:05:00' /Observation: Date/Time                         EXPOSURE=                 45.0 /Observation: Exposure Minutes                   PLTGRADE= '1       '           /Observation: Plate Grade                        OBSHA   =              1.63333 /Observation: Hour Angle                         OBSZD   =              27.2442 /Observation: Zenith Distance                    AIRMASS =              1.12447 /Observation: Airmass                            REFBETA =        61.8196600000 /Observation: Refraction Coeff                   REFBETAP=     -0.0820000000000 /Observation: Refraction Coeff                   REFK1   =       -60739.0450000 /Observation: Refraction Coeff                   REFK2   =        65541.5000000 /Observation: Refraction Coeff                   CNPIX1  =                 4705 /Scan: X Corner                                  CNPIX2  =                 1217 /Scan: Y Corner                                  XPIXELS =                14000 /Scan: X Dimension                               YPIXELS =                13999 /Scan: Y Dimension                               XPIXELSZ=              25.2845 /Scan: Pixel Size microns                        YPIXELSZ=              25.2845 /Scan: Pixel Size microns                        PPO1    =       0.000000000000 /Scan: Orientation Coeff                         PPO2    =       0.000000000000 /Scan: Orientation Coeff                         PPO3    =        177500.000000 /Scan: Orientation Coeff                         PPO4    =       0.000000000000 /Scan: Orientation Coeff                         PPO5    =       0.000000000000 /Scan: Orientation Coeff                         PPO6    =        177500.000000 /Scan: Orientation Coeff                         PLTRAH  =                   12 /Astrometry: Plate Centre H                      PLTRAM  =                   31 /Astrometry: Plate Centre M                      PLTRAS  =                18.25 /Astrometry: Plate Centre S                      PLTDECSN= '+       '           /Astrometry: Plate Centre +/-                    PLTDECD =                   17 /Astrometry: Plate Centre D                      PLTDECM =                   11 /Astrometry: Plate Centre M                      PLTDECS =                 54.9 /Astrometry: Plate Centre S                      EQUINOX =               2000.0 /Astrometry: Equinox                             AMDX1   =        67.2441413818 /Astrometry: GSC1 Coeff                          AMDX2   =      -0.361650319043 /Astrometry: GSC1 Coeff                          AMDX3   =       -231.950341567 /Astrometry: GSC1 Coeff                          AMDX4   =  -1.78783224709E-005 /Astrometry: GSC1 Coeff                          AMDX5   =  -1.64428562165E-005 /Astrometry: GSC1 Coeff                          AMDX6   =  -3.46102251549E-006 /Astrometry: GSC1 Coeff                          AMDX7   =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDX8   =   2.15633826198E-006 /Astrometry: GSC1 Coeff                          AMDX9   =  -4.85454134090E-008 /Astrometry: GSC1 Coeff                          AMDX10  =   2.38633266579E-006 /Astrometry: GSC1 Coeff                          AMDX11  =  -2.04742983854E-009 /Astrometry: GSC1 Coeff                          AMDX12  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDX13  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDX14  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDX15  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDX16  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDX17  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDX18  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDX19  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDX20  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY1   =        67.2559084437 /Astrometry: GSC1 Coeff                          AMDY2   =       0.358644330960 /Astrometry: GSC1 Coeff                          AMDY3   =       -21.0982146791 /Astrometry: GSC1 Coeff                          AMDY4   =  -1.60145235903E-005 /Astrometry: GSC1 Coeff                          AMDY5   =  -1.92009380174E-005 /Astrometry: GSC1 Coeff                          AMDY6   =  -3.44799116515E-006 /Astrometry: GSC1 Coeff                          AMDY7   =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY8   =   2.10595813400E-006 /Astrometry: GSC1 Coeff                          AMDY9   =   1.02931705567E-008 /Astrometry: GSC1 Coeff                          AMDY10  =   2.33538216433E-006 /Astrometry: GSC1 Coeff                          AMDY11  =  -2.07391092410E-008 /Astrometry: GSC1 Coeff                          AMDY12  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY13  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY14  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY15  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY16  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY17  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY18  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY19  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDY20  =       0.000000000000 /Astrometry: GSC1 Coeff                          AMDREX1 =        67.2442812068 /Astrometry: GSC2 Coeff                          AMDREX2 =      -0.358091837158 /Astrometry: GSC2 Coeff                          AMDREX3 =       -231.948493745 /Astrometry: GSC2 Coeff                          AMDREX4 =   3.72779186387E-006 /Astrometry: GSC2 Coeff                          AMDREX5 =  -1.53198067652E-005 /Astrometry: GSC2 Coeff                          AMDREX6 =   3.35756183527E-006 /Astrometry: GSC2 Coeff                          AMDREX7 =       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREX8 =  -2.44638543385E-007 /Astrometry: GSC2 Coeff                          AMDREX9 =  -2.58480490830E-008 /Astrometry: GSC2 Coeff                          AMDREX10=   6.61294898487E-009 /Astrometry: GSC2 Coeff                          AMDREX11=   1.96690130172E-008 /Astrometry: GSC2 Coeff                          AMDREX12=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREX13=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREX14=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREX15=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREX16=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREX17=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREX18=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREX19=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREX20=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY1 =        67.2555982915 /Astrometry: GSC2 Coeff                          AMDREY2 =       0.358589407677 /Astrometry: GSC2 Coeff                          AMDREY3 =       -21.0897664378 /Astrometry: GSC2 Coeff                          AMDREY4 =  -1.15584711890E-005 /Astrometry: GSC2 Coeff                          AMDREY5 =  -3.15995003001E-006 /Astrometry: GSC2 Coeff                          AMDREY6 =  -9.46782942746E-007 /Astrometry: GSC2 Coeff                          AMDREY7 =       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY8 =  -2.79528467431E-007 /Astrometry: GSC2 Coeff                          AMDREY9 =   1.80273325799E-009 /Astrometry: GSC2 Coeff                          AMDREY10=  -4.65959340426E-008 /Astrometry: GSC2 Coeff                          AMDREY11=  -3.18987379614E-008 /Astrometry: GSC2 Coeff                          AMDREY12=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY13=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY14=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY15=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY16=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY17=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY18=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY19=       0.000000000000 /Astrometry: GSC2 Coeff                          AMDREY20=       0.000000000000 /Astrometry: GSC2 Coeff                          ASTRMASK= 'xe.mask '           /Astrometry: GSC2 Mask                           WCSAXES =                    2 /GetImage: Number WCS axes                       WCSNAME = 'DSS               ' /GetImage: Local WCS approximation from full platRADESYS = 'ICRS              ' /GetImage: GSC-II calibration using ICRS system  CTYPE1  = 'RA---TAN          ' /GetImage: RA-Gnomic projection                  CRPIX1  =            89.000000 /GetImage: X reference pixel                     CRVAL1  =           188.860350 /GetImage: RA of reference pixel                 CUNIT1  = 'deg               ' /GetImage: degrees                               CTYPE2  = 'DEC--TAN          ' /GetImage: Dec-Gnomic projection                 CRPIX2  =            89.000000 /GetImage: Y reference pixel                     CRVAL2  =            14.496546 /GetImage: Dec of reference pixel                CUNIT2  = 'deg               ' /Getimage: degrees                               CD1_1   =        -0.0004721284 /GetImage: rotation matrix coefficient           CD1_2   =        -0.0000001289 /GetImage: rotation matrix coefficient           CD2_1   =        -0.0000002870 /GetImage: rotation matrix coefficient           CD2_2   =         0.0004722572 /GetImage: rotation matrix coefficient           OBJECT  = 'data              ' /GetImage: Requested Object Name                 DATAMIN =                 2444 /GetImage: Minimum returned pixel value          DATAMAX =                13790 /GetImage: Maximum returned pixel value          OBJCTRA = '12 35 26.450      ' /GetImage: Requested Right Ascension (J2000)     OBJCTDEC= '+14 29 46.82      ' /GetImage: Requested Declination (J2000)         OBJCTX  =              4793.77 /GetImage: Requested X on plate (pixels)         OBJCTY  =              1305.06 /GetImage: Requested Y on plate (pixels)         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ›P
+º
+e
+ûFÜlllYY¤:ËË€€55€¦¦¦¦Ë555êêê€Ë5êêÞt)“HÞttDDD¨]]cùù––jÔjj‰ó¨>µ–,KÔÔ –g;ZÄy¥;¥yZZ‚‚ÍcÍ777•ÿiiCCÙÙªõ‹õÉ£Ïî£
+w
+Õkk
+Õ
+Õ
+Õ¶L——ÜÜÜÜ0000Æ0OOå{{åuuîî„îî£X
+Â33
+o
+o
+e
+ûFF!···
+ÃYYY¤:55ŸŸŸŸ5Ë[ñÒhB€êê€€€ê€))““))))cùD¨¨®®®Dµµ‰‰ó]ó‰Ôj––µµjjµÑ;¥¥¥yyZZÄÄð†®®7¡¡7J´
+Ói
+ø
+øŽ$__ªÖ@£ÏÏ9X
+Âkk¶ 
+Õ
+Õk‘'''ååšš{{åå{{åå¡¡ÀÀ£î„„î
+Â
+Â£~›
+û‘FF·MM!
+x
+x
+ÃYYY¤555			Ÿ5ñ‡þ”B¬¬€êê€€€€))))UU)ý7Í¨¨®®®Dµ‰]]ó‰‰Ôjjj‰‰j–Kµ;¥;;¥ããÄÄÄÄ†D¡¡´
+ÓiŽŽŽ$õõªÖ@£££9„î££kkL¶
+Õ
+Õk‘'½½ååšš{{{{{{åå¡¡ÀÀ£
+w
+wXîX
+Â
+Â
+Â£ªæ››!!!·
+Ö
+Ã
+ÃYïïï::€€Ë5TT	5Ë÷ØB€aa¦[Å[ñ<<ttt
+ëUÞ²ì‚ccó]>cÍ‚cÍÍ7¨Ôj ùD®jÔ‰‰%Ú®44ÊÊZZZZ¥¥ZÄ4`ö®Í7Ç1||ÿii••ÿJJªªõõõõ~££î„ª~33 ¶——rr‘
+ûÜrrÜ ¶LL00åå\ÆÆÆ{{š0\Æåå£
+wXX
+Â
+Â
+Â
+Â£ÏÏæ››··!·ll
+Ö
+Ö
+Ã
+Ãï…ÐÐêê5ŸTTŸŸŸË€ê€aa¦<ñ[Å‡Ò¦ttt
+U¿HH‚ccó]¨ÔcÍì‚ÍccÍ>>j %D®>Ô‰‰ùD4444ZZðggð.žÊ`Ê‚Í71Ç¨¨ÿiÿ+Á+vv@@!!‹_~
+èî„33
+Š rr'‘ÜrrÜ 
+Š  00ååÆ\\\{{Æ0Æ0åå9££XXXXXX£9ÏÏ1ææ·!
+ÖlMM
+Ö
+ÃY…fÐ…ï55êT	ŸêT
+¾TŸŸŸa¬ññ‡‡ñ‡Ò¦HHÞt¿)ÞÞùùcÍ]ÇÇó‚‚Íc®®‰‰‰ùDÚjÔ‰ó®DD®é¥ð†¥žÊ`Ê‚cÍ|ó‰•i´àvvÁÁ@@ÖÖªªª~î„õõª~
+Õ
+Õ ¶''ÜÜ''rÜk
+Õ
+?
+Õšššš0ÆÆ0{{åššOå„îîî£££9Ï„„ÇPP!
+‹
+Öl·ã˜lYï±Ð:ï…ËË€êŸ	TêêTŸŸ5Ë¬‡‡‡‡‡ñ<<HHÞt¿)ttùùcÍ]ÇÇó‚‚ÍcDD‰]]ÍcD,j‰ó®DD®éé¥ððZ¥444ž®ù|]ó•iJàà••ªª@@ªªªª££î„õõª~
+Õ
+Õ ¶½½rr''rÜk
+Õ
+?
+Õ00šš0ÆÆ0{åOOå„„î„9££££9„„'
+°
+°==iÓ´iÓP|ÇÇÇ1ÇÇAAööïY¤:rÜÜr''Sé‚ììVV7ÍŽŽ$ºooo#÷÷÷÷UëUU{\Æ  ¿¿åå0òO#Ißß³{{§\\BBBBhÒ<Ò§=§
+t
+
+O#n¿)ÞÞÎdúú>¨‰‰dÎƒ‰‰ó]A×""ÞÞHHËË5Ÿ		
+¾TœœQ»•+vv¯>¨ó]A×A×tÞHH×AŒ"““'
+°
+°=iÿiˆiÓææ››Ç1ÇÇAAöö…ï:Ðrr''½S‚ìVVVVÍcºº$ŽÙÙo#÷÷#O¹ë§ò\  ëëå0Æ##ßuuu===§§§\\ØØØØhÒÒh§=§ 
+66å¹šU¿ttúddd>¨óódÎƒ‰‰ó]A×""HH²²555Ÿ		ê€œœQ»
+ÿ•vv¯Ô>]
+ÇA×A×tÞHH×AŒ"““‘‘‘ˆiÓˆæP1Ç111«ööÐ:Ðfééž½½½½777¡ì‚‚ºº$ŽÙo$$ØØBBØ¹ëëëòò=§666Ì§{\\##nn*À¡¡ˆˆòò=§\\n¹#þþ””òò{  66åOš0U¿UUúúúÔ>ó‰úd‰‰>¨A×"¸ÞÞH²Tê5ŸŸŸêçQp
+Ú
+i•vvddÎÎó]¨Am""ÞHgg"ŒŒ"“)‘''ˆiÓˆ´´æP›Ç]Ç››«``ÐfÐfé4žSS''7cÍ7‚‚$$Ž$oººØØØØØØ##UUëˆˆ=§666Ì§§ˆˆååšn”*ˆˆˆˆ=§\\š¹#””ÀÀòò{
+
+
+6{0Æ¿UëëúúúÔ>ó‰úd¯¯jÔm×"¸ÞÞÞHê€aË55€€çQ
+Ú
+D
+i•vvdddd‰ó¨>mm""H²ggŒ"¸"ý“'ÓÓøø$$|æ›1VÀ**::ÐÐöŒŒöyZÄž'']ó]]$$Ùo›æP#I³I§=­CbÌ6Ìbøˆˆ{{åO¹¹šøøøøÓ§{u”þ³Iuu§§\Æšš{§{Æ\{EEE¯dújÔµÛÛEEÞÞÞÞHHHÞ¬¬¥¥¥àJ
+´
+´pQQdd>>‰‰""×××AŒŒý“ÞHmm'rrÓÓˆˆøøºº|1›À**VÐÐÐÐöŒŒöMãÄ.r½½]ó]]ºº››1|æ¹OššI³I==ÓiCÙŽøøŽ$º´´JJ{åOOšŽŽbb=Oåu”þIßßß\ÆÆÆ§§§Æ\{EEÛEú jµÛÛEEÞÞÞÞÞÞ²HBØ€yàJJJœ2}Q88óó""×
+«
+«AŒŒgýHÞmm'rÜÓÓˆ
+òbbCÙ|æ›1À*u7fÐ::««AAMM˜˜rrSSóó¨ÇÇ›››PPOåOOI³þ”òˆÓi$$ÙoPº•+ààò\Æš0Æ0Æ$Ž­C\0ÆÀÀ””**ßI00{{§Ói=\0å{{{0Æ&údd&µ‰‰E¯ýýý“ttH²¬€T.ÄyyàJJàQ}çQdd
+í
+W
+|óó"¸"
+ö
+
+«AA²ý“""½rÓÓˆ
+ò
+Ì
+Ì­æP›1VÀuÐ:¤¤««AAãã˜˜SS]]¨>¨|1]›››ººoo#¹OOßIhþòˆÓiŽŽo]µ‰|WÁààò\00Æ\\òPºÙCˆòˆÀÀ**ÀÀßIÆšå=iÿÓÆšOååå0Æúúúµ‰ó‰úú¯ýýgýttH²ê€€T.ÄàJJàQQQ»ddƒ
+í
+|óó"äN"A
+«
+«
+«²H“ýŒŒã˜||1›*ÀVVVÀ*À…ï¤¤:Ðfffffffÿÿ•+P$Ùcc®¨>>>Æ\ˆˆˆò§§u¡ÍcòòiWíà´DDcÍ77¡¡ÆÆ=®‚¡ååå{Ž$$b===§åå=Óˆn¬a÷EEjÔ‰µíÁ++Qç2HHýýÞHýý““H²g““ýóó¨¨¨ƒƒ¨óóm™ä¸
+ö
+ö
+öŒê€€êTêãl||1›Vì77¡¡‚‚ìVÀV…¤¤Ðff’’fffÿÿ•+|PÍÍ‚>ÔÔÔ\òˆˆ´ÓÓ¡Í%iÿÁÁJ®®ùcÍÍÍÍÆÆ=D7¡{Ž$$b§ÓÓ={{§=òˆB÷##ÛÛjÔKƒWWW}^2HH““ÞHýýýýÞHýýýgó>¨>>¨
+|
+W
+íƒ>¨]]m™ä¸ŒŒŒ"ê€€€ã·M|››¡ÍÍ7Vì®‚ì¡7ïï::¤:fü’(G±•++ÁæP›‚‚>Ô§=Ói´Ói‚ùù=ÓÓi´J´ˆ®‚‚ììÍ7{{Æò®‚VìÆ0øøC­ˆˆÓ§\\ÆÆòò\\nØØnnnØØÛEEÛóÔ 88©?©})))))“““ýý))“ýgg>ÔÔ>>>]
+Ç
+W
+W8dÔ¨m™ä¸×AAAŸ5ËË€MMã|››7Í7ì‚‚‚7¡ïïf’fÐü’¾(±…±+Á+ÁæP›1D®®Dj µµ=Óiÿ´iÿ®ùÍ§=iÿˆòˆˆ‚‚‚ìì¡7òò‚VÀVÆ0ŽŽCÙ´ˆ==ˆˆˆˆò\\ØnnnnØE¯¯E‰]>j8v¢©??)))))“ýýýýýýýggg>ÔÔ>>>ó]
+í
+í8dÔ¨×¸¸×AAAŸ5ËË€ê‘‘'VÀ*À|óó]Ç]ó>>¨Ê`Œ"…füüüffŒŒöŒ›››1ÇÇ1ÇD®»KK  ´´ÿÿiÿÿ+òòò\Æ\ÓÿÓ=cc®®Ó=\Æ7cùÍVV¡§{{Ž$oÙC­bøooo´ˆ\\##¹””””EE¯ƒ¯E2œœœ¢íW¸"™)“²
+ö
+ö
+öŒ‰jÔ¨¨óó¨]ódÎ
+íƒýý²²²²HHyZZy‘‘'VÀ*À¨‰‰]Ç]ó¨¨¨`öŒ"…füÐÐf’¸¸"Œ›››1]]]ÇÚD»áá––ààÿÿÿ•++òòò\\òÓÓÓi´´ÚÚÿiò\ÍùùÍìì7¡{Ž$oÙCŽ$oo›Jò\\##¹””””qq&&EEEÛÈ2và+Á"Œm)“²
+ö
+ö
+öŒó‰jÔ¨¨óó>¨]ódÎ¯“g²²HHyÄÄy
+û''uÀV]]¨¨]]¨ÇÇ`ö""ffüfÐÐfü¸¸¸"›ÇóóÚÚÚ,ÂÂ,••iÿJvÁ+=iÿiiÓ=§=iÿiÚÚÚÚJ´Ó=®D®Í¡\\==ººPPoÙÙÙŽŽ$Pÿ=\\nš**uß&&qÛÛÛ&¼?QQ+••+m××)“²²gg
+öŒŒŒ¨>Ô>¨ó‰jj>>dddúÞ²²H“ýyyyÄÄ‘½½¡ÀVÇÇ||]]¨11ŒöŒŒÐÐfÐÐÐfü""¸"1ÇÇææDpÂXîX•iÓiàÁ+=i•++i=§=i•ÿÚÚDD´ÿi®DÚppcˆˆiiPPææoÙÙŽŽººi§ÆÆØ**ußEÛqq¼R?ççWÁ+Ám)“HHHHýý"¸¸¸¨>Ô>>¨óµXX–júúdÎ²²²²HÞ“ý
+ã
+ã
+ãyÄÄ:ÐÐ˜˜˜½½ÜÜÜrS½˜˜y>¨]ó]Ç77‚®®444Ê«44Å[ñ³hÒÖ@@ÖGÝÝG`"mA1]>¨íWWWiiˆ®DÚÚp%ÚÚ11|Á•àà77‚VuußßII***”äNää/[6 ¿)¿U¿);Ñ†ð¥;;¸¸m)))“‰‰Ô>d¼¼¼íà
+´p»»+++
+ÿ
+Ú
+Ú%%»QÐÐ¤ll˜½½ÜÜFÜ½S..ãy¨ó‰ó]ÍÍ®®®®®44Ê`A«ÊÊÅñ‡³þh˜˜GÝÝG`"×««Çó>¨Á+WWiiJ´®DÚ®®Dœ ÕÈœ]1|íÁvvÍ¡V*uuuuß³³ßÀÀ*”zä™m¸¸™Å6 ¿)¿UU¿ÑgZ¥¥¥""m))“)Ô>dÎÎíÁv¢àp%%
+ÿ
+ÿ••pp»»»Qf…Y
+Öl˜½½½½rr½éÄ˜MMÇ]‰>>®®Dùùù``ööŒö™Åñ‡<ÒMã.ÝsÝG«Œ""ŒA«>‰]vàÁWÿ+8%cÍc%?::x–¨]óWÁÁìÀÀ**uÀ”ßuÀ*ßu¦/mäzU¿tÞt
+U¿Ñ¥¥;;ŒŒmm““HÞÔÔÔÔ¯¯vvWÁ+WW+»»»%
+ÿ
+ÿ•+»»»»f…Yl˜''½½žžééÄ˜ããÇ]‰>>®Dp%ù%ööŒŒö`««/[‡Ò<‡³M·	Ÿ	s«AöŒŒö«A>j‰]vWíÿ+¢v»Q%ù7ÍQ2^#¬4–ó‰W•ÁDD‚V**¡V*uÀ*Ißz/mNä¿)HÞt
+U¿††;;;ÑÑÑN"mm““Þtj>>>ƒƒààÁ+++++QQQ»•••+QQ»»:¤¤ÜÜÜrMM˜.žSSãã..ì‚ì‚‰Ô>Ôj–,%DD«×"Œ†ðÑgê÷###yM·MËËŸs«`Œff…ójÔƒíÎÎpDJàJˆ§Ói´J8~@úvvà+WpÚÍ*ÀVìåOOåÀ”þ”ë¿)“““ÞÞ¸NäääN;;¥;ðð†ä¸mmHH““úú>¨¨>QQvà++vvvà
+ÿ
+ÿJàÁ+Jàvà¤::ÜÜÜrãã˜.ž½½ãã..‚‚óµ jÔj–,»%Ú®«×"Œ²ý“B##¹OO¹yyãyË÷5	«Aö"((ÝG]‰–,Û88ÚÚDD´JJˆ§==Óˆòò´8v´´JÁÁD®7u*ÀVìåOåO**”*ë)“““ÞÞNääääN¥¥¥;††ð†N"××HHýýddÔ>>ÔœœQQvà••JJJ
+´
+ÿ
+ÿJà+•Jàvà…½‘Ü..ããžžr˜˜ãyDùÍ¨ÔµK,,ppÚÚAm"Œ²ÞttBØ#Øå¹.ÄZZËË5ŸŒŒŒNT¾¾¾‰‰µKEƒ¢¢ùùD®´i§§ÓˆòòˆÁ•iÓàÁÁÍ¡ìì7¡åå0IuubÌ t))ttN¸™/NNN¸ððð†ÑÑ††¸"mmHHHHƒ8Î‰‰>Ô22à
+´
+´
+´
+i
+ÿJJJJ•+àà•+ÁÁ±±±½‘Ü..ããžžr˜˜yDpc>>‰  ÚÚÚÚAAŒö²Þ Ìš#nšå˜.ZZ5		ŸŒŒ"ä¾(¾¾‰]]óƒ88D®òˆÓ===òˆòˆ++•ÿJƒW‚‚cc7¡ååÆšßßßuÌbÌ ))  N¸™/NNN¸ðð†;;ðð¸N™™HHHHƒ
+í8Îóó¨>22œp
+´
+´
+´
+´
+ÿ•vvJJ•+àà•+ÁÁ.yã'‘''ržÄÄ˜l˜.Z1ÇæPPºPææ|¨]]	ŸêTz¦þÀš##u7®‚mm""ööŒ"€€¬B€ËË‰]¨>>>>àà•i®®®®›o›WÁàJòòò\òˆˆˆ§§§‚‚Í7šš{{ußßI¦¦Nä÷÷BB÷÷÷aËË¬¬ËËËËZ†Ñ¥êTŸ5ƒÎú>¨¨ddƒ
+íƒ¯jj>¨¨¨¨¨ó‰˜yã½'''r44žÄÄ.˜˜˜oPæPººP|¨>]]¨¨Ÿ5€¦Òþ”nØ##ßuìì¸ŒŒŒ"¸€¬¬€ËË‰‰¨>ÔÔ¨¨àà••pD®®›1Wívˆˆˆòò\šš{{{V‚7¡å¡uß¦¦zäzzØØ÷÷÷aaa¬¬ËËËËZ†Ñ¥êTŸ5E¯dd>¨¨ÎÎƒ¯EÛµµjjjÔ¨¨]ó.yrrrrž4žãyyã...˜$$o›ºP|¨Ôj>¨Ÿ5¬<Ò÷÷hþ*ÀmmmAŒ¸™¬B€€€Ÿ	]]‰óÇÇJ´iiùùùæPææ8Î¢ÓÓ==ˆ\åå{§§‚‚‚Vš0\‚ì<¦zz[ÅzzBØnØB¬÷÷÷÷÷ËËaa¥¥¥¥55Ÿ5ddƒƒóó>¨ÎddddúÔ>ÔÔÔjj>ó]
+|
+|¨.yžžžžMããyZZZÄººoÙ›æ|¨jÔ||	Ÿ¬Ò<ññaa÷÷Òh”*×××«ö"™¬€ŸÝ››ææ]Ç´i=cùùùæPPP8Î¢ÓÓÓÓò§§§===‚‚Æ0Æò®¡¡Ò<zz[ñä¬BØnB¬÷55ËË¥¥ËËË5ÎÎƒƒóó>¨8ÎÎÎdúúú>¨¨¨¨>jj‰ó
+|
+|¨Mã.ÄÄÄyã.˜''žZð¥vàJºæÇ]8¢íÎ8TTËaËË<<ÒÒ¬ØnnA×"Œ±G’ü;ððaa€(ææÇ]ƒíàà´´ˆÍc®DÇ1››Ç]Ç›®®®DÓ=ˆ®cc§ÆÆ7cÓ§{{Žb6 [ÅzNaØØÑÑý““g†€êêê55Ëa¬¬¬€Î8Îd¯¯dÎ¨‰‰‰‰>¨¨¨]‰µµE
+í
+W
+íƒlMã.˜˜Äy.˜''rÄZyàvàJºæ1ódÎíÎ8êêËa55BÒÒhhØØØØA×"¸s	(’¥Ñð55T(|¨ó]íWvv´J´ˆÍcDÚÇ1››Ç]1Úÿ=òˆ‚ÍùÓÆò¡u¡Í§{ååbbÌ6Å/ää÷#Ø¬;;gý“g†ð€êêê55ËaBB¬€8
+¢8úÛÛúd¨>‰‰‰‰>¨>>óµµE
+íƒƒM˜.M·MyðZyãÜÜrÄÄ..••JJoæddÎdÎWíŸ555÷#³IuuO¹÷öŒ×êê	Ý†²²ð€êT¾¨>]ÇWWv•ÿÓ=cùDÚ1››ó‰177Úi§§=Í7Í´ò=Ó7uVòÆ{{ÌÌÌ6¦zzBØØ¬††ÑgH²;¥€€ËË€ê5Ë¬¬a58
+¢
+í¯ÛÛE¯‰ó‰ÔÔÔ>¨¨>>>jjj¯¯¯ƒM˜.ãMãZÄyãrržÄÄÄÄ++ààoPP8ddÎ8¢WíŸ5€€Ë÷¹Iß¡¡O¹÷öŒ×êêŸŸHH†€êT¨Ç1íí¢ÿi§=cù®D1››1]Ç›o77®D=§§=cÍù»Jˆ=Ó7¡Úòå66Ìb<¦B¬¬¬††;Ñ²Ñ;aa€ê5Ë55Î8
+íƒEE¯‰ó‰jjÔ>>>ÔÔjjjjEE¯¯¯ƒòò''rž½'˜.ããrr½SXXXX£_‹‹õ„°°ëbø´J••®%%cì‚¤:f˜˜˜lÄ.y·ÖÖÖ@þ”³Ž$ŽŽh<[‡ÒÒÒh„îî„îXÂXXîÉ3É_ª@‹‹ªR,,î_3¼&üü±±±±±±L   kk¶¶000šuVÀññ<¦¦¦[ÅðZ¥;gg††ÝG’(ãMMã||Ç]óó%DDùcòˆˆ‘‘ÜržS½˜.yyrr½SXX££XX£9õõ_É°FFŽ$àJÿÿ‚»%ù®DÐfü(Z†Äll·!@@@ÖÀVI³Žøø$þÒ‡‡hhþ”„„„îî„ÏÏ„î33Éª@õõèÂÂX„_3èR((±±GG±±xL¶¶k—xLššš0¡7ìV‡‡¦[ÅZ
+Ä¥;ÑÑ††sÝ(¾ãM·Mææ1ÇÇÇù®®ùˆˆˆûûFÜrÜ˜yžSéî„„îXX9e!õeûFFbŽo++JJ‚®%Qç»%ï…f’ÄðM_ÖÖ‹‹Ö@õ·ìVßIoCøŽþh³Iu°ÏÏÏÏÏÏ°°„~èè~_õÉ3£9£9~~3ÉT(’’ÝÝüüxâL—xâååOåV‚7¡ñ[Å[ñ¦¦¥¥ðð††††¾¾		ã·!·æP›1›11ÇD®ccùùˆòòûûFÜÜÜÜFlãyrSéî„„îîûû‹_~~eûFŽŽÙoÁÁvv‚®Q}ç»ù-Ã:fll_ªªõõÖ@‹M®IooŽ$hÒ³ßF„ÏÏÏÏ99„ª~è_õè39ÏÏ9~~_õ€TTTŸŸ(üâxx-—âx{O¹OÀìÍ7ñ[ñ³h<;;ðð††††¾¾		M!·M|æ›1›1ÇD®cccc=§§l··FFû‘‘½½SrÜÂîÏ9°„~3É‹‹õ!ˆˆÓÿºæææ==Jvv´ÓÓRè@Ö@É„„ÏÏõ_õ·¨Ô|$³IIIŽ$º$Ž$Pæe9F°„3É~„îw£Ï£3ÉXX99ÉÉª@¥yyy¥;ÄlââÃYÃ-xâ{O¹¹O{\\ññ‡Ž$Žb««;Ñ†ð˜˜ãMlMy|æævvWíJˆˆùù§§§l··ÜÜ‘'½½½SrrrÂÂ9Ï°„î~è3Éõõõ!òò=iPPæi=JJˆ§Ó~ªÖlÖ_°°ee‹!‹õP|P$³IuuºP|æ$ŽºPe9°Ür££É3~„îwá99ÏõÉÉ3,,9õÉª;¥Ä˜ÃYïYâLååOO00‡‡‡øbbbAA««;Ñ†ð˜˜ãM˜yy|æææWí´ˆ
+ò
+òùù\§§!!l''''rrržS½žžÂ,X„°FeÏª~3__@=Ó=ÿæPæ|iÓi•ÿ=\ˆª‹!!‹É3ûûûeÖllªÙPºþ”VìæP1›Ù­øŽ°F'‘eÏ_É_‹°„ÂX9ÏÏe‹õ_3wwî@Éõ††¥yyy…YY:¤-—Æ\åššåO<ÒÒ<bbbø×A««†††yyyã··ããPPPP8ƒíÓ=
+ò
+ò®Dˆ==!!l''''ÜÜÜS½žÊîXX„FÜûel@É3ÉÉ§iiÿPæ|iÓÓÿÿ=ò@Ö!·‹É3ûû‘û@Ölª­Ù$º”*ìVPºÙoÙ­bø„°°‘S‘Ï_õ!MrF°½'ûeõ‹‹‹ÏÏè3_¥ãMMy;s±YY¤-—\ò§{ÆÆ{hÒ<¦ÌÌbøA«««ðð²yã··ããææææ¢ÎƒíÓ=
+ò
+ò®DŽCC::ïï¤¤ïï::……f’—LLx-Ã‘‘e9É_õ‹ˆJ••àvWíÚ®®DÚÚDœ««4žy·‹õeûrF‹‹ÖªÆ\ÆÆ\ò==§§\\åš0RèR&q3è&—Ã…Ð:ÃY˜!‹FFûûõõÖªÂ,Â„aËê(·My;¬Tüfff±±ßß*”þþþh¡ußßß*Àyã˜··..ggÑ;ZZ;ÑùJ´=
+§=Ó´øCCff……::……::ï…±ff—LLLâ-Ã''ûÏÉ_!·´JÿÿJàÁWDDDÚppÚ««4žy·õ9ÏFF!!Öª\ò\00Æ§§òò{{0Æè~R&Ûq¼&—ÃY¤YÃÖ@õ‹FFeeÉÉ@@XÂXî5Ÿ(’·Mãyêê(’üüGGßßÀ*þþhÒuußß*À¥.˜··;;gý†Z¥;ùJ´ˆˆ=
+§=Ó´bøÐf……:Ðff…ï:Ð±Güü¶L-—âFÜÜ°ªª!·´Jiÿ+ÁÁW%»%p»4`éZ.lª„„ûûÖ@‹õ\ò\00Æ§{šÆòò¼&¼¼¼¼—Ã¤xïÃõõõ!‘'Ü3É@@Ï9„îT(((ãy˜˜	Ÿ	s(((üIßuI³³‡*VìVuuuÄ˜lZð²ÞýÑ††c
+ÍùiiÓÓˆˆ=Óÿ+­bøÐ:ïï:Ðff…ï:Ð±’’Lâ-—âFÜrF@@‹!´iÿ+ÁWíQç%Úp%%4S½˜˜lFF‘‘lÖ‹õ\òòÆÆ\==Ó{0\3&¼RR¼èYY¤:¤ïÃõõ!!û‘ÜÉ_@@eÏîXê¾((y˜lÝs	s((¾’ßII‡*V‚ìußßãã˜˜lll
+Ö
+ÄZ†Þ“g††ùùùùiiÿÿ´ˆÓi++ˆ=i…ïïï…ff«`öŒŒ"¸----qÛq3FÜ'‘Ö@@Ö=ÓiÁWWWíÁÁ+ÿ´´ÿ•MããMM·rrrrl@@ëë­6bCÙ~RRRèª~ÉÉ~R9eeeÏeûÏ~‹õ„„££Ä.(¾ÝG’((’GÝsGßßIš0{åååO¹l··l
+Ö!·4
+žÊögÑ;;DDÚD®D%»D®DQ%\§Ó…ï……±ÐÐA«`öŒŒŒ"——ÃÃEÛFÜ‘ûÖ@@Ö=ÓiÁƒƒWí••++´´•+M·ll·!‹!ÜÜÜÜlÖÖÖëë­­­ÌÌ­è¼q¼¼R~@ªª33è¼9999£999è~õ_„„99ZÄ˜l’(sÝ’(’ü±GGGuuß³Æ0åOåååO.˜MMl·MÊ44`Ñ;;;®®ÚD
+‚ù®Dp%ù§=¤¤ï…ffÐÐA«««A×Œ"¶Lx¼&&Rûû°°@ÖÖlˆˆi+íƒ88ÿ•ÁÁJ´••!!ÖÖõ_õ‹FÜ‘ûª@!·bÌCøÌ­6 ëqqq¼RÉ_õ_3&&Ï999££îî33ÉÉî„ee¥¥ã			ssÝ(’’üGGu*”þhÆ0OO00ååy.˜MM«««††ð®®D®
+‚	ì
+Ícù%»%§§=¤¤ï…ÐÐ::«AAAA×¸"¶LLâ¼&¼¼ÏÏllÖˆˆÓ•ÁW¢¢iÿ++J´ÿÿ!!ll!‹‹õ°F‘ûÖlãMb ¿ëÌÌ­ëë6 ë3¼~__3É_É3&&Ï99999„„ÉÉÉÉî„ee;;55	ss	TêT’±±uÀ*”þ³³Æ0ååÆÆååy.˜˜˜ããAA«A††ðDDD®
+‚cù»%ÀÀÀ··M·lMM±G±ŒŒ××LââLqq¼Ree°ÜžrFÖÖÄ¥¥ðð˜.yy....11||¡uIIß**›1]1”Ò‡Ùææ6ÌbøˆòÆ6øoCPæ1IÒh 666h<Òhþþ””++Á+ààÿi‚ÍcÍßß!·ÖÐ:ªª_õ@@ª@íÁ•ÿÿ••ÿ%%DDððZZÊÊ`öA×ö`¥¥VììMM·!lãã±±öö×âxxâRè''rrž4žrÖÖÄZZ˜.ããÄÄÄÄ]]||¡ßI””o››”þ³ÙææŽ$øbˆò\\6øÙÙæ|›o³³ÒhÌbCCbbC­þÒÒ”**ÀÀí•ÿ•JJ•+‚7¡¡·!l@Ð:_õ@@lZÉEW•ÿ•+•ùùÚÚ†ZZZÊÊö``ÊV7¡M·ll˜..Ð:::«A"NÃ-Ã-è~3É'½rr½SéSM·My¥¥˜˜.ÄZyã||1]‚Vu”””hÙoººI³³³o›1›bbbø$ºC§­$$|P$ßßßuŽ$ÙÙøøŽøIh”ÀV¡¡í+Jvà´Jv‚ìVVÀÀVìMMÖÐÐ…ªª@MÑ_ÛJ´´JJD®®D%»»g;¥
+S
+SÊÊV7¡·!lll.:¤:A×"N——è~_É‘'ÜÜ‘'SéyãMy;;ll.ÄM·ææ›ÇìuþþþþÙoPPßußß›››bbøŽŽ$CCiÓÓ§C$$¨æPP77ÍPºCC$$$ŽuIþþ*ì7íWvvvJààVÀVVÀÀì‚yy.ff±ªª@!M¯WJ´´´´´ÚDÚD%QQg;¥;
+S
+SÊÊÀ77M!Öl·!·M`ÊÊ`öŒ¸N&úEÛR~_É!·l·Mãyr'S¥ããGÝ’’¾¾ÝÝuß*V]Ç1$$$$ooPæußßßuCCŽø­­CC´JÿÓ­CoóÇ||¡cW•´´•+•iÀ*””7¡ß}ç»»Á++•ÇÇ||¡¡7Íê€ê(‹‹@É_ª@ff±±Áÿÿ•%%%ÚÚ•ÁÁ•;¥¥;¥¥;¥
+Ä
+Ä;ÑÊ4*¡ÍyMlM··MöŒŒööŒ¸N¼ÛqR~É3õ‹ÖlMããMrÜ'S¥ãã±s((’’ÝÝßI*VÇ1››ººººooPæßI³ßßuÙÙøbCov+ÿCÙojj%»»»ƒ¢¢WÁ+ÿVÀVVu}ç»+Á+•óó¨¨ÍÍÍc€ê¾(!õõ‹@ªÐÐïï•ÿ•+%ÚíWÿ
+y¥¥¥;¥ZZ;Ñ`Êu¡7ããÄÄyMŒ"ŒŒ×mNNq¼èèèõ‹Öl!MMMrÜÜ¥;¥ü’ÝÝ’’’’**ÀìÇ››››ææPPPæÀ””*u¡$$oCbbÇ¢Á+ºPæ|KKá2œQçE¯Î¢WÁ‚‚Í¡¡¡©©}QàvàJ]ó>>Í7TT	sÖ‹!ÖõõÐ:YÃÿ+++%DÚDD%çÁi
+Ä
+Ä¥¥;†ð¥¥ð†`Ê¡7¡·ãÄð¥yöŒŒŒm/zz¼¼RR‹!lÖ‹···ÜFFr¥;Ñ¾(ss¾¾((VVV‚óÇo11ææ||PºIuVV*À7cºº$$›]¢Wí|>Ô££È2}q¼E¯pÚpccck?çvààJ]ó>‚‚7¡¾¾s	..ãMÖõõÐ:YÃÿ+++%DÚÚÚ%çíí+ÿðð;¥¥;†ðð†ö`ººø«öŒm×««…±[‡[3qqèè‘½'ûûû‘‘‘‘FÜ.Ä¥ýZÄyyêê¾¾ÓÓÓ•11C|1››oÙ0\Óibb›]]óócùDDjj –Káw£ÈÈ}ç,X„„„ÏeÜÜû9ççœ jjjÕ^2vv®7¡]]ÇÇ.˜Mãyy˜lÃ-âââL¶ ]ó>¨¨¨»%%»àà•ÿMã˜lGGÝÝ!!(’PPŽÊ`«A««…±G™Å[[É33èè‘½½‘ûû‘‘''rÄZ;g.Äê¾===ÿ11oC|æ››11›ÆÆ§iøøo]]]]ÍÚÚ–Â,–Káww2}Âî°ÜF°Ïe r r‘ÏççœÂ,, —kôÈ¢8¢®7¡óó]]˜·MããÖÃ-xxxâL]ó¨>>»%%´´ÿiMã˜lGGGG··’
+üÙÊÊÊÊ«««Ðf’’NzäzèèRèûûÜÜ°°ÜrržðZ††MMãa÷5Ÿ´JJJºP$Ž1››1]]|æòò=ÓCÙo>Ôóóc»»ww, –,áKÚ©?„ ' 'F„î‘ ½ 'û}eû£w¤â¶ôíƒ¯ícÍ77óó‰ó˜˜˜llYÃx——¨¨¨¨ÔÔpiiiÓl˜ãM’’ÝGl˜.(’CÙÙ``ÊÊ«««Ðfff"NN¸¼¼Rèûû°°°ÜrÜÜZÄÄÄ!!·ãË÷a¢à$ºº$›o›Ç|æˆˆ=ÓCÙoÔjccù%áá,,Xîwç©°F ' 'F„î '!S!é ½kkÕ? ' ½ûÏf¤â ¯EƒÍ77cóó‰ð.˜˜˜˜ïYxâ--ÔÔ>¨¨>Ô 2piiiÓl˜ãM¾¾sÝl˜.¾(bCÙ……¤Y…Ðf×Aöö×mmm¶Lââ—-ÃÃFFûe‹··‹û‘'Sž½SffGsZ²ÞHó]1JJ+ÿ›oÙ1|æøø­CÙÙÙ›  µK]ÇwÂÂ©?©È2}©Š ¶ L¶ŠŠ L!S!é"Ê"4!x" — !x!x!- —TÐâÎùÍ‚¨Ô ¬€TT		ÝGYÃx-—‰>¨¨¨µW•ÿ•J´MM˜˜¾¾sÝ’(¾¾¾¾øCÙ……¤Ãïfü×Aöö×mmmL¶¶â-ÃÃÃFF‘û‹‹‹‹eûû'žSéüüÝ	Z²tÞ]Ç›oJJ••1›o1|ŽŽÙoCCo], ‰‰‰á£Âî?Õ?©È^ôŠŠ ŠŠ¶!x!é""Ê"4""¤"Y!Ã"¤"¤"Y"ï"BêüÐèè¼ú%%ÚDÔ>>j¬€TT		G…-Ãxxx-—ó]¨]ó+••+àJ´´ãã¾¾ÝG
+ü’((¾êŽ$Ž……:¤Y±±Œ"""×AA×LL—YYÃYYFFF°‹õõõeûû‘½½S’(T€Ñ“tH|æPº•ÿ´´Ç1Pº1||CÙººŽŽPÔá Ôj,X„e9î  Õ©ôô?ÕÕ??ÕŠ  â""Ê"Ê"!S!x#:"ï"Y"¤#:$$"Ø!¬ê(‹õ~R}çQ»KÔÔË5ŸŸê¾±YïYÃÃÃ——>¨||´´´J•ÿÓÓ··ssGGGGsÝsŸ$º$……:¤ï±GŒ"¸¸A«A×LxÃYYÃÃÃ°°°!‹õõeû'½SSé¾TT€“U
+Þ|ææPíWà´]ÇPº›Ç¨|CÙ$$$$|Ô,,Â„°Ü ½‘°Ü!Ã —kk L L  — — Õ?Š L"¤"¤#`#`"!S!x#:$#…#:#Ð%G%G%0"Ø!¬êM·l?©}»µ‰¨¨Ÿ5	Ý((G±……ïYYÃÃjÔ¨¨¨¨´´´•ÿi=llMMssÝÝÝÝÝGGs««··ÖÖFž4Œ"¸"±ü’(TTTT¾ÝÝ¾¾ss		((j–ÂîÈÈ}©XXX„˜ð†ÄyMllããÖªrÜFFMyãrrã†H55€€†H¿ ë"!!"­#C"­!Ì"b"u!ß"*"*"›" Ù­‘!é"#$#…!Ã"Y##«#«#«#`#ö%¸&ä&ò$š## Ë˜˜·õYÃ—Õ^œpÚ…YYY¤:±Ð¤YY¤’fï…ÐÐïïF°eekk?©&¼3èèR¼qq&&¼Ré!!ÖÖFržžŒ""Œ±G(¾TTTTêTss¾¾		ŸŸTT  ,X22}}–ÂX„Ö.†Äã·ll··ÖªrÜFFMyžž;²H55êÞ¿ ë"#Ù#Ù%&1%›$º$$$Í$7#ì#ì$]#Ç#1"!é###«$±$"ï#…$×$A##"4"Ê$Œ%¸%Æ%Æ$å#¹ ðÄãMÝG…Ã¶Èœ±±ïïfüG±:ÃÃ¤:(ü…f:ïïÜFûûÕÕ?©¼RÉ_èR¼qq&&¼R4žžll!!Frž×AAAfü(T	ssŸ€T	ŸT¾¾(	ŸêêáKáÈ222µá9õM¥yãã˜˜l@½½''˜žž4ÊH))Ë5Ë÷Þ!6"b"b#Ù%›&1'](>&|%æ%P%&D'%'%&$ó$¨$$Œ%"%"%"%’%’%G%Ý%"$Œ#«#"Ê#`$A$A#¹#¹$"Ø ZÄ  ŸŸÝï¶^}}(’…fü±GG±…YÃÃ¤Ð	GÐÐÐ¤Yï'‘ûe??©©q3É~èRRR¼¼¼¼R4ll··ÜÜžA«««fü’¾	sÝ5ês	êTT¾ÝsT€áµÈ222‰µá_‹ãããã..ª~~SSSS˜.ÊÊÊ`H¿ë÷¹!6#Ž$$$$%›']'ó)* )j(Ô'&Ú(**)&µ' &j&N&ä&ä&ä'T'T(5'Ÿ&ä&N%m&&N$Œ#!é!a""B!Ä Z!;!;!÷!÷ 5Gxô}}(’±fü±GÝG…YÃÃ:f	GÐÐÐÐïY'‘ûe??ÕÕqR¼R~èRRRèRSž4FF'½··MM……:f±Ýs	¾(¾ê5sÝsäzÅ/((êê%%QXXdú&è_‹ãã..M‹_õ44é¥¥ÑÑ;¥†²
+b¿¿ U ë"ø$$%&1'ó)µ*K*á++*¼)*9+e,Ü+°)X'–(w(w'z&ä'Å([(€'T&s'	'T'ê'Ÿ'	'	$±"Y!- ¥!Ñ"g!;!Ñ!Ñ!†!†"ý#“".…kÈ2mŒö±GÝ±:ž4`Œs±ÐÐ‹‹ª~?ÕŠŠ?Õ¶ ¼¼âL-Ã--4ÊÜÜ½Sã···ïï:fGs	s’(¾êŸÝGÝNäÅ/¾¾¾¾»Qçç££îîúRÉõl˜ãã..·!‹!ÊÊ;¥¥;ggÑ;†ÞÌ!$""#C#Ù%P&|'](‰)µ+w,,£,É,É+è+è-'-'.,Ü+)X)£)£('z(ñ)‡(€'T&s%Ý'T))a(Ë(5%Ý$"ï!Ñ ¥ ¥ ¥"g#“" ð"g$)#Þ ðG-ô2™"Œ±sÝ±Ð¤Ê4Êös±ff‹‹ª~?Õ¶¶kÕ Š¼¼xâ—-q——Ê4ÊržM··M:Ð…±GÝsÝÝs¾¾¾’’(äzäNÝG’¾Q}^^99££ÛE¼3‹MMãM..MMlž4ðZðýg²HÞ6 Ù"›"ø$º%æ&|'¨(Ô)µ*K*á-9.e.û.Ö.@--ª,‘-½-½,‘+û*Ï*„)î(¦()‡)‡)a(Ë)a'Ÿ(Ë**)a)a'Ÿ&s%G#H!† ¥ ¥"g"ý!; ¥!†#Þ#Þ Z-ŠÈ/™N"ü(’fÐ:Ê4AÝ±fü!‹_3 ¶LLk?©qRRxââRRâxÊ4Êr44žãMMãfüGGGÝÝss	((((’ü¸NäNÝGü(Q}^^9999qè‹·M!·M..ãã˜ž4ðZZ†gýt6Ìø"#Ç$º&|'¨(>(Ô+,,,£-9.e/‘0'0/l/l.Ö//.S-'-'+û+*„)Ò)<*+I*+#+#**,O,O+#(Ë(5&s%G$t"²!Ñ!Ñ!Ñ!; ¥  ð""ÄGY¶ôÅ[äGÐüüÐ¤4žéÝ±Ðf‹õÉ ¶¶¶kÕ?©qRRxââèèx!!·r4ÊžMMMãSSSSž44ÊZðZÄ±Ý¾T/™¸NdÛÛ&¼R°F½fü…Y·ãyyã·llZÄ.Z††ÑÑ	Ë¹åš Æ#$à&Ú()2*^+Õ-.x//F/Ü1S1é1é1é0r0r11/Ü.°.Ö.@-õ-_+ñ+ñ,‡,‡,<,<+[+[+6+Ì+*ë)t'²%Z$Ä$¿#“" ð ¥ ¥ ¥  €TŸ	ÝïLŠzzÅÅÝ±Ÿsüf‹!ÖÖ‹‹õõÐ:YÃYYYYx-—Lâ---Ã--¼¼Rè‹‹!ržr!!Mã''''rž4ééÄZðZ±Ý¾T/™NädEE&¼RFÜ'éfü±…y¥ãM!@@Ä.˜Äðýý	ËO { Æ!ò#$à'p)È*^+Š-—.Ã0:0Ð0r11é23«2241241110/l.‹/!-³-³.I.I,Ò+¦+[+[+6+Ì,+* (Þ&†%ð%ë$¿"² Zãã ¥!; €T	ŸŸÝÐâzNÅÅ	Ý±±	Ýüf‹!l@õõ‹‹fÐYÃÃÃYYx-—âx---Ã--&&¼RÖÖlÜrrÜÖÖMãrÜ‘''½SééSéZðÑÑ¾TTTzääz¯¯dúEEEqû‘‘½…Ýs±;;MM·!!¥¥Zð††HH5a¹å!!§#ÿ&W)2*ô+Õ--â0:0…1±1é1é243`3«33`2Ê21é1S1é1Ä0˜0M/·.ß.I.I-+++[*Å*ë*ë+*ë)¿))'%Z&6%
+"Ä˜. ¥ ¥ 5ŸT €"B"Ø 5…<äääsG±±¾’G±!·Öõ‹ÖlüÐ¤¤x——xâÃÃxR¼qq¼RllÖFÜÜFllMãrÜ'½S½'½½S†ýýTê€€¦¦Îd¯ƒEÏ‘'SsŸÝyãyã·;g²††Ht÷÷# {"=#ÿ%Á(*^*ô,k-—/1f2G3s3«3«3ö3ö4×4A4Œ3ö321é22Z1.1y0ã.ß.I-³,‡+¦+¦+[*Å*U*U*U)¿(“'ý&†$Ä#H ðÄ˜˜.  Ÿ	¾ê"B&\& 5*¦ääsG±…((s	y.!‹Öl’f::::¤¤¤——x¤¤YYxR¼qqRè'ÜF·MMM˜ãã½'ry˜˜S«Agýýýz€€ê8¢ídd¯E©kâxsT(€êŸ	Tê¾’×"ö`ŒäzBBO!§#i&W'ƒ(¯*9+e,‘.S/ï12’3(43†4²5H4²44g4g333321é2410V/À.”-h,­,­,*ë*/*/)(m'ý&Ñ%ð#˜ ð˜MM˜yãããMM 5#¹$å ËìhÅ/zä"ö.¥;.’üGÝ’f:¤___ÉïYxâR~YÃxxq
+ÛqRè'rÜ·MMM˜.yM'½ryÄÄ«A«gýgg¦¦zê€êT8¢íEÛ©kâx…ÝTT¬êŸ5T¾¾¾«mN"Œ¸äzBnå"=%+()Û+*Ï+û-½/12G3¾4T44²44²5H4²4ý4ý4A4A3«3«3«32410ì0V/À.”-C,,*ë)™)™(m&«%¥$y#˜"l Z!!lM‹‹···Ý	 Ë 5À[zN"..¥Ä˜’ü±s¾’Ð:_‹õ_ïYxâ¼èYÃqRèÜ'‘ll··l˜˜rrr˜ÄZÄÑÑ;ÑÅñ<zTTŸŸƒ¯&&EÛ?Õ¶â:(Ÿ	÷555€êêTŒ¸™m×m/Øš!§"Ó$à'Î*&+è,F-r/Ê1Œ1ü2’3s3s3Ñ4g4g4ý4ý4ý4²5Þ4×4A4A33«32410ì0V/u-³+*ë*U'ý("(¸'A%$.!Ö!@ ªy·ªª‹··õ!·‹‹ü’ÝsÍh¦z™m¥¥¥Z.ÝGÝË÷5G…@l‹_YYÃ-~xx¤èRqq¼R°‘'Ö‹‹@Ö.žžr˜ÄðZéé«ÑÑ¥;/[z¾¾ŸŸ¯¯E¼¼EÛ©? xÐ¾5Ÿ÷aa€êT"N™™™/[ 0!ò"Ó"Ó$à&¢(ú+è-r.ž0`2"1ü2’3s3s3Ñ4g4ý4g4ý4ý4²4²5m4×4×3«3224240ì/*.I,‡*ë*U))&Ñ%Ê&`%#½"l!@~èãM@‹·!‹!·‹_Ð:ï…7¡þ<z™myy;;¥ÄÄsÝ5{•§Ë±@@õÉÃÃÃYÉ3èRââxèRqq&¼°FÜFFee@Ö·y"ŒA«Œ¸mààv¢8µK  %%pœ¯Eú¼R¼&R~_!Êö`
+Þ))²ggÞ
+66 6­!Ì#Ž$º%P&í(¯*&+è-_/!1.1.24243`3ö4p4p555Q5Q55œ4»4»4p4p4 2Ô1]1]0`.ž,Ü+°*9*9)'K&j%Ô$]"›"* þ ñ¨|oÙºPÙCoÙC­­CÙC Þ#÷êfü(’ŒŒö`ïï’š!Æ	ïfÐ:¤YÃ:Žbëëñ‡ÌÌ6 
+
+°°FFF‘‘ÖlMãŒöA×""×A´´àµ  »»¯Eú&èèRèõ‹ÜžÊ4ÞÞ))²ýýÞ6øøøb­!o"ø$º%æ&|'ƒ)E+R--õ.‹1.1.243`3`3ö4p4p555Q5Q54p5Q5Q4p4p3j2>1]1]0`.ž,Ü*„)£)£)'K%>#|"!o!”!” ³‡1o$ŽC­CÙC­CÙÙCC­ Þ#÷€Tfü’üööö`YYfêB€G…’Ð:Ð…::øÌñ‡bbbÌ6
+F‘‘ÜFÜÜ!!MM`"×AA´´àvÁWÔÔj œœppdúEEÛ¼¼Éª@‘½ž4tt¿¿““)““ C Cøø Ù"$$%æ''()E+è-ª.Ö01Ä1Ä24243`3ö4%4»5œ54p4p5œ5œ5Q5Q4»4»301/P0|0ö/4-'+e)X(Â'–%>$"P Ž Ž h<[ÅPæP$øb­CŽøøŽÙÙ$Žbb t¹÷€êfüG±««öŒÐ::ÐÐÐ::Ý±f:YYÌÌ[[¦ÌÌbb6 F''rÜFF····`öAA«×àààv+ÁÔÔj ÚÚÎd¯Û&&3~e‘Ê
+
+UUUëUU Ù Ù Ž Ž Ù"$$'(>(>(¯)Û+è,~.@/l0˜1Ä24242Ê3`4»4%4p54p4p554»4»4%4%1ó/-Ž/æ0`.ž-'+e)î(,%Ô#|"æ"P Žb¦z™º$ºŽbÌÌ6b$ÙÙŽøbbÌ OTÐfÝGAöŒfÐ¤xxG……:ÃÃÌÌ[[¦   ÌÌ6!·MÜFû‘½½''…fÐÐÐ±›ºº1Çùù»,,KK>¨¨ÔÔÔÛÉõMUUë6 6Ì­ Cø!º"""›#1%'](>)j*K*á,£.e.Ö.Ö001S1é243`333Ú54 4–4á4á5œ4p4p3Ú2Ô/æ/P/æ/-â,k*(,' $]"›"À"À ÅäNmm+•ÿÓ\\òˆCCÌ6§==§šBË	«×™f:¤¤:¤YÃž4éSfÐ::É333­ÌÌzzz¦¦¦‹‹!ÜF‘'½½''±fÐÐÐ…o››ºº1Çùùù%––áá¨¨¨¨¨¯ÛÛÉÉ‹yUUU6Ì Ž!$!o Ùø!º$]%‰%‰$ó&1'](Ô* +w,-Ï.e.@.@.Ö00½1S24242ù2ù3Ú3Ú4 4–4K4K4p4p3Ú3D2Ô1/æ/P-â-â+Õ*©(Â&j#1!o!”!”["¸AAÓii=ÆÆòˆ 
+§§¬Ë	Amm×f:¤¤¤ïY4ÊéÐ:::_É33­ÌÌ¦¦¦¦‹@Öû‘‘'rrÜF¤:…………ï$ºPºPP1ÇÚÚ––,,ó]¨>óÇ|¨¯Eq3‹y­Ìø!$!$!º!º!$"P%Ô'–'K'á'¨(>(>+,,£-9-„.-ª-.‹/·0r11241‚3D2ù2ù4 4 4K3µ4%32ù2c31ó01.o-—,k+?)}'–$¨!o C h</m¸¸««§§ÌÌëU{§òòë
+
+ÆÆÆÆ¬5ŸA×ŒŒfÐïYYïïYžžÐÐÐÐ_Éè~­ÌÌÌÌ¦<ñ[‹@Öû‘‘'ÜÜÜF¤…………ïøŽ$ººº›1pp%%,,,,ó‰Ôj‰]>¯Eq3ªª!!o Ù­ø!$!$ø Ž"æ$%>&j' 'K))j(Ô(Ô+Â,£,,î-„--ª.‹/·/Ü0r/Ü122®2c2c3j3j32‰2c2ù2c1Í1ó0Ç/›/,k+?*'%$"P Cëzz™¸¸AAÓå{  ¿)å\0Uë  00\\šB5Ÿ×m""fÐ…ïï…ïYrÜrÐÐÐÐ_É~C­ÌÌÌÌ<Òñ[-ÃÃSé4ÊÊÊ`"Œö``VVì‚‚ì‚¢¢8ƒƒQç2œ,–áá>j–X_‹·ã²  "ø"ø""! U!§#ÿ&&¢'ƒ((ú*&*Ï+û+e,‘,‘+û+e,‘-'-½.ž/4.Ã.Ã/¤0:1]1ó2>1¨1ó2‰2>2>2+2+0´0/ù/c-V,À+Š)È(Q$Í"æ!$)€ZÄ˜˜Øa÷‡<<Oåšš0\§§§§§å÷€€Ëaa5yy˜l··lÖÖ@õ_—ââ-—Lâ§{O¹ßßßuåå¹#””YÃÃSé4ÊÊÊ««öŒŒöööVVì‚‚ìì‚vvƒƒíí%»pÚ –KK¨Ô–,Éõ!Zt#Ž$º"­! ë ë!§#ÿ&&¢((¯*&+R+û-',‘,‘-',‘*Ï+û+û,‘,Ü.ž.-.-.x/0Ç1]11¨1]1ó0|0|0i0i/ˆ.ò.7-¡,À*þ)2(œ'%$Í#|!º­ëB¬ê.˜nB÷³<<O¹nnšÆ==§å#a€€Ëaa5yy.!!ÖllM‹—-ââ—-x=åOßßßuOOO¹þþ¤x4Ê44ÊÊ`A«``««`ö¡7cccÍÍvƒƒí%%%%KµµáKáK¼èªÖyý!Ì"b ë¿tt Æ#$à&()Û+,É,‘,‘-r-r-',‘+û+û+û+e+e,‘--—-L/0|/æ/›0Ç0Ç01.o-Ù.§.§-{,å,*+”+I(ñ'»&$‚#V"› ÙbÌ¹÷ê¾..Ø¬¬<Ò‡O¹ØØO{=ò0¹#B¬€êŸ5Ÿ	ÄÄyyl!!!MM!x¤Ã—LL——{å**IIn0šI³x4Ê4žÊ`«ÊÊÊ`ucùùùù¢¢¢íƒƒ»»»»wáKwKwwRR~ªM¥H²gg²Þš!ò$J&¢(¯*q+,3,‘-½,Ü,Ü+û+e+û+û+û+e*Ï*Ï*©+?,¶-L.$-Ž-Ù//›/,­*ë+#,O+¹+#)<(¦'Å&™%c$7"À!” Ù C6tË5¾’l˜˜l¬¬Tz<‡Oåšn¹å§Ó\n#n¬êT	ss	..yy.˜M!‹‹··Ã—LLkkO¹nn**IIš0šI³SžžSéÊ4ÃÃï……ïïYÊÊæPæó––Ç1ÇÇÇ]óówáKK}}çÂXîîXÂ£(€ËËB¹O {"=#ÿ%Á&W'ƒ(ú*&*©+Õ,¶+Š)£)*Ï+e*Ï)£(Â)X)2*^+?*©*Å*Å+ñ,‡-h,Ò+[*/)‡**h)<'Ÿ'	%’$f"›" Žb¦¦/mTê	Ý’¾s±55Ÿ	ê€ËË)¿Þ²²ÞU HÞ
+šBêTM··ã			s˜˜ã!±GÝsââxxâÕßIIInnššnØSSéÊ`ïï…ïï…ïYÊÊ««|æ||ÇóÔ ]ÇÇÇó‰óáKKKççç–X„„XÂ£’ê55¬Ø¹O {!"="Ó#i%Á'Î(ú)})})È)È)(w'K'á'K'K' '–'p(œ)}'»'A(m)™)(¸)N))(ñ([(¦'z%Ý%G#Ð!x­b6ää/mTêŸs’’G…ŸŸŸ	TêŸŸý“²²“)ÞÞ
+6Æn¬êM··ãŸŸ	s˜˜ãMÝsÝGxLâxxâ—kßIßßnnnnnØžSé«::…ï:Ðïæ||¨¨Ô||Çó>Ô>µKKK»ç»»á£XXî„’¾¾ê¬nšå {!"=#i&W'Î(d(ç(ç(ç(ç'–%Ô%‰$ó%>%>$ó%‰%®&Ú&%ù&`'Œ(m'A&ö&ö'A'×'/%m%m$A$#…"¤ LUmAÝsT¾’üYsŸ5s(¾TTggH††ý)Þt¿¿O#B€yM·MTTTT.˜˜ssG±--xxâL—uußn¹¹O#B
+¬4žžé¤¤ï…Ðf±…æ|¨>¨PP1]¨ææµKKQQ%%ó‰áX„„üü’êB Æ 0Oå!#i%+&í'8&¢%ù'%'»'»' %>$]$ó$¨#|#Ç$]#ì#ì$7$Í%Ê%Ê&$é$ž$ž$é%&$A#!é!- —¶Šëë¿Aé±G(’fÐï-Gs5Ÿ¾(TTÑÑHH²²“¿
+t““ØyyãM((TTllÝÝ±ÃÃxxL¶—-¡¡ßnššååO#B
+¬Ÿ	Ÿ–,wwqÛq    ŠŠŠŠôôk—ÛE&¼Rèx——ÏûÜrMMllMyÑýýgô Y! !; Ÿ Ë"$O%Æ&\%0$š$¬%Ø&¹&#&I$‡"Å"Å$¬#€#5"Ÿ"T!¾"T#€$Ò$Ò#¦#¦#¦##[$‡$t"² ðÄãM˜Ó=§{{Ø€€BØB<¦zNÈô?Õûeee––ÂXÉ_õ—k  °F‘9œœQ»%»Q»ÑÑ†ðÊÊééyyZðààÿÓ=Óiÿ¡¡VÀo
+Ù		Ÿ,Â£wÛEÛŠŠôôŠŠŠŠ^^?kÛE&RèR¼Rxâ——e‘ÜrMM˜˜..y¥;;Ñ;^Šk—_MããŸ!÷###¹$#n#n$#€#€$÷%$‡"Å!!#€#€"	 Gü ’ü!("z"z!ä!ä!ä!N!™!™!† ð˜l!·l§O¹OO¬TTB¬<¦ää^^©Ïee9j–,Â3_õ‹Ã—  °F‘9œœ}ç»QQ»ýýZAA«``¥¥ð†àÿÓÓiiÿ¡¡VÀo	TT –áKÛE&RŠ^©ÕÕ?©^^ô EE&R¼¼ââ—-ûûFÜ˜˜ã¥;ÑÑôŠŠ¶èª_õ(!"B$#¹""Ø$#Ë#5#Ë#Ë#!N ¸ ¸!s"	 ’Ð:f± " ¸ " ¸ m× "ŒãMM‹ª@@@§å#÷5	5÷÷a[/™}}çX„îj–,Âª@ÖïÃ¶ ûûe£QQ}}Qçœœýg;¥××«ð†ððvJÓiiiVVußooŸêê– µKq¼èŠ^©?Õ?ôôŠ¶EE¼RRxx—-ûû°F˜.˜ã¥;gg²²¶  Lè~3Ð¾!¬$š%{$O$š$š#Ë"	"	"	"z ¸!N!N Ý Gü:¤Ð…`ööŒ×A`Ê·!M·@ª~~{å#÷÷÷ËË÷÷5™mmççÂîîÂ ,ÂXªª@Ã—¶L'ûÏ9çççç}Èœýg;¥«AA†††à´´Ó=ÓÓVVußêêê– Káô^ô &úÎ¯ÛÛÛ¶LxYÃâx‹!llMãyyžžžÊ²HL¶ LRRª˜!Ñ#“%0%0%0$"ê"T"	"	!¾ ’!(!¾ m×öÊ4öAéŒŒÝ±ü(Öq³³þþØBa÷÷÷5ÝöŒ""£9„îXX£w9„î~__rÜÜrkÕ??©}œ2ÈÈ}QAAöö`öAAö`;;Ñ;›oo´ˆòVVuuææ¾TT jµKqqqq^ÈÈôdúúÎƒƒEEEúú ¶Lâ-ÃâL_õÖÖ!·!MrrÜÄð† Šôô¯Eú&èª·yê!"B"B"T"ê"	 ÝüÐfüÊžžéSéS½4`é…Y¤ÐRE¯ñhh¬5Ÿ		s`öŒŒwXÂÂ–K£XÂ~33°°?©}Qp»```öAA`ÊyÙCCC´ˆˆˆ**ßßººs	ŸµµµµÛq¼¼©¢Î¯Îd¯¯úúE¯Õk¶Lââ——ª@Ö@@Ö!MrrÜÜMyZ†?©d&èèÖ’¾ Ë"#€$¬"ê!¾fÐ……éžž½'r4žr'SS‘--Ãïq¯¦<Ò¦TTÝGü(G±ŒŒ××ÂÂÂXXÂw9îîwáÉõÉ3e9ÏÏ}}ççQQQQQpD«öŒ×Aö`é.˜˜˜CCCÙ´ÓÓ**uuººs	ŸKKµµÛqRR?©©}8¯dúEEúú¯©?Š ââ——@ÖÖ@ª@‹·ÜÜÜÜ·ãZ†}}}ƒƒd&¼¼èÖ’’ÝŸ!¾"ê!¾ ’ ’Ð……éžžS‘Üžžr'''‘--ÃÃqE¯¦¦z(ü…f’±""mmXXXîîX£eîÂáwÉõ_ÉeeûÏ}çç}}çQQQQœp««öŒA«`ÊS˜llCCÙo´ÓÓ**ßßºº
+Ý¾T^^^ôôô?ÕR¼¼&EÎd¯EŠŠ?©ô ââ¶L-ÃÃ-xÃY'½rÜ'S4öÚDÚ–,,ÂÂîFžYÃÃï G Gff " "«:¤x½'r4YÃxâ¶¶Õ?R&dƒnnËyy..±±ÐÐfüÝsKµ jEÛ&¼ÏÏ°—¶ 3ÉK>ÔÈ2ççQQpŒ`ÊÊð†††ž.˜lløøøŽŽbbb66
+Ý(¾^ŠŠô^^?ÕèRR¼Ûq8¢ƒôô?©©©Š¶LLLâ—--—¤Yï'½rSSž4DDÚp,Â,– ,r-—-ïï::``¤::¤S½Ê…ïx¶ŠŠÕ?qq&&úÎíƒnnË	MyÄÄffÐfGÝKµjÔEÛ&££Xî©?ŠôÛqáµ>Ô2œççQQpöÊÊÊð†«žÄ.bbÌbbb­­bb66
+G
+Ýs©?ô^2ÈôŠ3¼¼qíW¢8^^©?ôŠ Lx-—---ÃFÜržžr‚»ÂÂ––î°kk?ÕLâžÊö`Ð¤éSž4¤¤â ??Š^qEEÛEƒ¢8¹¹a	˜...…üü…füµ&&&îXÂÂÈô?EÛ&&KµÔÔ222È2œ×«ÊÊ¥¥ZðééZÄM·bbÌbŽø­­­
+G
+G
+Ý©^È2È^ô3RRqW
+Á¢^^?Õ ŠŠ¶kkâ¤¤¤Ã-—„ÜrrÜì‚ù%áá,,––Xî©©}ç^ ââržÊ`± Ý ’fSrÜLL¶ ©©^2¯¯EÛ¯íva÷ËÄ.˜˜…ff…füóó‰&î„XX^ŠÕ©q¼‰>>2^Šô2ppœmA``;.ÄSéSS.˜M·øøCCbøŽø­
+’
+’(ÈÈÈÈ¢¢íí¼¼––– 
+v
+v¢©©Š¶&EE LÃÃÃÃâLâx°FÜržžcÍ®Ú%D®Ô £îîwXÜÜ¶¶——é«Œöï-kÕeûFÈÈ}Qíí¯¯ƒW€€€ê¾(Ê``ö±üÐÇÇó‰µKµ?^^©ÕkÕR¼Û¯>>‰£Ïe9»ÚpggÑgA4žSSr··˜JJÿiii´=§§§\
+Æ((¾ÈÈÈÈ88ííqq&&––– ¢8©©Š¶&EE L--——L¶k—ÐrFÜžž4ùc®Úù‚jKáX„£ÂXôô©©e'r-—k©£9„Xœœç»WWWWWW88êêêê€T’Ê``ö±Gf:ÇÇÇ]áKµ?ŠŠ???ÕR¯¯ÔÔ‰w£9%ù®DÑÑÑgAA`Êé½rÜ··˜.JJiÓÓÿJ´iÓ==ò\
+Ý(¾^^ƒƒ8¢qq&&Ká– 888Î??ÕkEEk——ââ— LxF°Frrrž®®DÚD]ó‰µÂî£ÂÂXXÈô^È9e°  ŠÈwááKpppWÁ•ÿJvË5€ê€ê(üéAüüüf]óÇ]‰K– ©k ŠÈ2úddú‰‰>>,ÂXXpDù²Œ`é½žãã.ÄJ´ˆ\ò´••ÿÿ´ò
+Ý(¾©©^^ƒƒ8¢qq&&Ká– ÎÎÎd??Õk&&EEÕkkkLx-—¶¶Lâ°FÜÜÜÜDÚD»pDó]]‰ ,áwÂ–––œÈ2œ9Xîôôô^K‰ó®®DÚWÁÿiJJJJËa€êT¾’fé«üü’ü‰óó‰µ –©?Šô2pÎdÎdÔÔÂ,ÂÂÚ%»HHH²Œ`éSSž4yM˜.J´´ˆˆÿÿÿÿ´ˆ\
+Ý((^^íííí^^©^ô©©©©^ôdd¯Û„„XÂ33--—¶¶—ÃÖ@@l‘‘û‘×N¸Nä™Ë55Ë¬¬a÷ggý“ýg///[÷a¹5	T€a÷¥y˜˜˜.ðZÄãMÖÖÊ`ÊöŒŒ××QQ}©??©ô^?ÕÕ?}%«×mmÞÞ¿UÒ¦[Å¦ÅñúÎ8íí¢vàJàà$øøŽÙoÙÙ´ˆ´J$$ŽøÌ6s((22}}WWWWÈÈ©ôŠ©©©©È^ÎÎƒ¯îîÂ,33k—-—¶¶—ÃlÖ@@ee‘'AAŒöŒ"maËËa€€Ë5ðýýgÑÑ;/Ÿ	((aaËŸT€a÷ã˜˜˜...ÄyãöŒŒŒööAA»ç©?ÕÕ?ô^?—?»Am™™ÞÞUëh<[ÅzñúÎ8ƒƒ8J´´´$$øbCÙÙÙ´ˆˆŽŽøb6
+ s((22
+ç}88íWÈÈ}©?ô^^ô©©ÎÎ¯w,,3èRÕââLLLx··!õÏeÜrööö`Êö×m€€aËêTTTÄ†²Hð¥¥mmmmÝÝÝGŸ5€ŸŸ€Z.MM˜Ä.˜˜˜.yyMM«AöŒŒŒAAœ2©ÕÕÕ©^^©Õ¶¶Õ}NNÞ²)UÒ<ñÅ/Åñ‡úÎƒƒ¢¢W+´´iiÙÙŽbøøbbˆòòòbbb6
+ 
+ s((ÈÈ}88íW22}©?ô^^ô??ÎÎ¯áK,XR¼©Õ¶âxxLL‹·!õÏeFÜ``öŒöö×mêê5Ë€¾¾¾.Äð†ð××××±ÝG±Ÿ5€êssTê.!!Öl˜.˜˜˜MM··«`ööö××2È©Õk?ÈÈ©Õ  ?™™¸¸Hg“<¦ñÅ™/[Å¢¢WWÁ•´´ÿÿÙÙŽbbbÌÌˆòòòÌÌÌÌ66		s2È©È2
+ç
+ç
+ç}^ôƒ8¢íƒ¯¯ddqqè~~~ƒEqÃ-——@Ö@ÖllÖ«×müfGGê¾	5¥yãyŸŸê¬€€GG±±G±ããMM˜˜l‹‹‹‹l˜ss(¾M·ÖöŒööüüXXXîe‘e99Ï°ÜÜF„  tÞ“g†²€€€êzzä¸+ÁÁ+vW•ÙÙPºÿÿiÓ==§§­­­bÌ\\Ÿ	s2È?©È2
+ç
+ç
+ç}ôŠƒ8¢WíƒEÛEddRèè_ƒ¯Û———@ªª@ÖlÖ@é×m’üGGê¾sŸ¥¥yËËêê€ê€€±±±±±ã·!!l˜˜··!!l˜sG’(M·Ö"¸""GG’’XXî„e‘e9ÏeFF°„î
+
+tÞ“g†²€€€êzzä¸+Á+•àvÁ+ÙÙºP•iÓ===§§­­­bÌ\\TT¾2È^^ÈÈ}}}ôôdd88ƒƒ8Î¯EúdRR¼¼R_ƒú¶L--__ª@!!Ê`öŒ±±ü’€T¾¾Äð¥;¬€êêTTŸ5±±±ÐfüüÄ‹·MMMMMMãM·M˜’f±ÖlÖ×ssG±ÏÏÏeûûûûû°°Ï£ÂX¿¿)ý²²²²ê€€TäzzNÁ+vàJŽø$PÿÓ====Ó=
+ë­CCøÌ\\¾¾TÈ2ÈÈÈÈ©^^ÎÎ¢Î¯¯8¢í¯dÎ¼¼&&¼~É3ƒdú ¶~~__ª@!!Ê44Ê……füêêêê..¥gB€€€TŸ5GG±ÐfüüÄ.MMããM!!MãM·Mlüü±lll«×/ŸsG±££££9ÏÏÏÏ„„9ÂX))“g²²ê€¦äWÁvàJŽøŽº•iÓÓiiiÓ
+ë
+ëCCøÌ\\ä/ÅKµµKKµµjjµµ–  ,3&Ká,–    3~èáá,Â~èèèÂXî„„°ûûGGGÝ˜ãM˜.M·Ä†;¥¥;êTêŒ`:Ðfü¥ãM··Êö«¤¤x4ÊÊÊ::YY:Ðü((’’üwwwwÂÂ££îîÈ2ç})ý²²``öŒHÞÞÞ¸"A«¢WWPºº$´iÿoooÙìì7uIIu1›oo””z/ÅKµKááKKµ
+Ô
+Ôj
+Ôj–q¼&Ká,–––,,èRww,ÂèR¼¼,Âî„îûûÝÝÝs.Äyã˜.yy·!.Äy¥;ê¾TmmöÊ¤:Ðf¥;y·MM`ŒA«ÐÐÐ:Ê```::ïïÐf’’’üfÐw£££á,,wwÂÂœ2}ç“gööŒ"²ö`«A¢WWPººPàJiÿ1›ÙVVßIu›
+Ù
+Ù””Å//jjµK––Kµµ
+‰
+‰µÛÛqqáááá,ÂwRRwwwè¼¼¼á£eÏ£9eû((Ý	Zð¥y.˜ll...;€êT×A«…±±ÄÄãM˜˜˜«AAAüfüüŒö`öüfï…±ÝsÝÝs±…w9„£ÂÂáK––»ç}çýý²²××"Œ†ð¥¥``öŒ¢¢íí|æ›1Á+´´ºPºŽuÀì‚ÀII›
+Ù
+Ù””™™™jjµjjµKKKµµ
+¯
+¯qqááKK–Xw¼¼£~RRR£9££9eû((ssÄZ¥y.˜....˜˜ãê€€ê×A«A±GÝ±˜˜ãyZZÄ.«A««Ðfüü"Œ`ö’ü±ÝÝsÝÝs±…w9„î£ÂÂáK  %Q}çýýÞÞ××Œö†ð¥¥ÊÊöŒÎÎƒƒ¨1›Á+´ˆøŽøøußÀìVIIooo
+þ
+þsssEE ,,–µµKµ
+ú
+úEÛµµ ,wá  á3É9££XX~ªÖ¾T¾(.ÄZÄ	s((ŸËê¾’(TTê€Ë5üfffŒ"¸Œ˜˜yðð¥±GG±üü…±G±mmŒö}?ô2œœáááá–,wáAA"Œ²²öö`Ê«ÇÇ|||›$ºŽbˆò§=››1Ç›ººº$oß
+³			ÛÛ&&µµ ,,–µµµK&&ÛE ,wá––ww3££££îî~@(¾¾(˜˜.	Güü	5Tüf(êêTêË5fü’’Œ"""ZZ¥ðð¥±±±±ÝG±üü…±…A™™m"¸?Õ^œÚppµµKK–,wá««`Êð†²ŒŒö`PæººoŽ$$øˆò§=››PPº$›uIŸŸŸ¼&qKµµá,–µµ  µáèR¼µµµKáww,,w¼¼£9£Xî~É_±G((Mã	ÝÝÝ¾¾sGGŸêT		êT±ÝÝ××AA¥ZððÄfüff’üÐÐ±GÐ::Ð±±m/™¸¸mô^Qp»µµ–,áµÊÊð†²Œöö`Ê4$$››oÙoÙÙo$Žˆ=Ó||›oææoºæu	55¼&qKµK,–KK–jµµRèR&µKKKáwww,,w¼¼3£9eÏÏ£ÂX~èÉ_±üüll·Mssss((ÝÝ	5T¾		Tê±GGGmm×«ãyyyÄZðÄfüÐÐfüÐÐ±GfÐ¤ï×mm""mÈ2çQœ»KKj µµ««ÊÊ†ðð†ö``ö««`ÊººÙCCÙCÙŽøˆÓ=ææ›oææoºæuuVVußoºPæPPæ›o$$88ÎÎÎd¯¯údÎÎ¯KwXXX‘ûîÂXî„ÖÖ@@ÖÖ!·MM·!l¨]]‚ììvà+Á2œ»»%»àvàJÚÚÚp%ŸŸT¾’fü(öŒmmÝÝGGY@ª!‹õ_„èèqÛÛqªªõ‹eehh‡ËËËË¦¦€ê¾¾&&&& –,,È2}}}}ß**uußI
+ÙoºPPº$ººº888dÎddÎ88ƒáîÂÂ„‘ûîXî„ÖÖ@@@@!·MM˜˜M·˜¨‰‰‚ììàJ•+œQQ»%ÚvàJÚÚœ»%		¾(((’’`öÝÝ±…Y…Yèª!‹_É„„„¼¼qÛÛEEÛ~~É_ÏÏhh‡aaaa<¦¦<€TT&&&& –,,È2}}}}**”
+þ””
+þ
+Ž
+Ž$ºººººPæPPíííƒƒƒÎÎƒƒ,Âw£ÏÏ££XÂXî9Ï!‹Ö@@@!·l˜yy....]ó‰‚‚ccJ´•+œ%ùDÚ•+ÿi%%ÚÚ»çœT¾¾TT¾’üA¸¸±…ïYÃY¤@@„î&EÛÛÛÛÛ3Éõõ9Ï„„³³‡ñ¬<<<¦€êTTqq&&  Ká}}}ÈÈ**”
+þ”*”$$º$$$ºººPPPííWíƒƒddƒƒ,ÂwwwwXîXîÏe!·.˜ÖÖ!·ãã˜˜..1Ç]óùùàJ+ÁœppD®Óiÿi%%pDù%p¾((¾¾(üf«ŒŒïÃ-ÃÃYxâqqªª@@°°„î&¯EÛÛ_ÉõõÏeIñ[€¦¦<¦€êTT&&––Ká©}}ÈÈ*uuII”
+þ
+ÙoooIßuuíí¢¢^^©??? Š©©??3èèwwXî__ª@ÖÖ˜˜ÝG’’Mãl·MMãÇ1]ó‰ó>>»%»QQQpÿ•ÿi®ÚÚD%%ù®ÚDÝ±GÝlÖÖéÃ--ÃRRqq——k9eûûeÏ„î¼&EÛ—ââîî9Ï@Ö@@nBË5<<¦¦‡a5Ÿ5,––,R¼&&ƒƒ¢¢
+v”uu››››ßß
+þ
+h
+ÙoßIßßWW¢¢ÈÈ©???Šô©©??èèÂXÉÉªªªªÖGÝ’’·MlÖ!·ãyÇ1Ç]]Ç||ù%çç»ÚDiÿ•ÿDDD®ù®DpÚÝ±±GlÖ@@éS-ÃÃ-&&ÛÛ--—Ïû‘eÏe„î&¼q-—LLîî9£ª@@ØaË¦¦¦¦‡a5Ÿ5,––,¼&¼¼íí¢¢
+v	àß**PæÀ*II$ºPPuß””¢íW2^??^^^^ôôŠŠRR3ÂXXX~~ÉÉª@üüG±‹õª@ÖããæP›11›Pº7cÚ»´J+•DD%%ÚDDÚ»%’üüül@É_éé½½xx&&ÛÛâxââ°Ü‘Ï9e°îÛqRèâ¶¶î„îX~õ‹¹aË[[¦¦¦¦€êTêÂ,– ÛqR¼¢¢íí¢
+vu**ooºPÀVuI$ºººßI
+þ
+þ¢ƒí2^??^^ôô^^ôôqRR3,ÂXX~~33ªÐÐ…õ_ª@l··Pº››º$¡ÍDDùùJà+•%%pp%%ÚDDÚ%(’üül@3ÉééSS¤::¤&&EE¶LââFr‘Ï9eF„EÛ¼Râ¶ L°„î~õ‹aË5[[¦¦zzêTTêÂ,– ÛqR¼88ƒ¯úÎÌÌ6bb
+ë\\
+ 
+ 
+ë
+ëWíƒí2È©©qqR¼µµµK¼RèR–,, qRè££XXïïïï_õõõ————žé7Í®®®‚ì=pœQ»ÿ•J´´ˆˆù%%¤YY4FÜÃY¤Ð±ïqÛE¯ ¶âL3è¼LxâÉ_É3õF„„ªª00åO““““ýgÑg#ddíí©©©©ÎdqõÌÌ6ÌÌòò§§66WííW2È©©ÛÛ¼&µµKáè~~è–   qè~ÂÂYYYY_õ‹‹————žéS7Í®®®D®ì{§òòòpœ»%ÿiˆˆòòòÍcxÃÃžrrÜÃfê÷sïqÛÛqLâxâqq&&LLââªª_É33É‹°„„„ªª@@00{¿“““ýggýO¹##dd©©©©Î!$> b6b=§ÌÌ¢¢íW}}ÛqqKKáwè~~èáK –Rè,,,,¤¤:õõõ‹xâ-—½éžìDÚDDD‚\\§\´ùˆˆ=\ò®ùc-—ââ½½Lx’0"ƒi5ï&&----qq&¶L——õõ_É3Éª„„„õ‹‹õOå00tÞ“ýggý)O#Øn¯¯©©©©Î¼Ñ(£.4!æb
+ë
+ë6b´´=§ÌÌ88íW}
+ç
+ç}qáááwRè~èwá–,èRÛ  ––¤¤:‹‹õ‹xâ—½éžV‚DÚDDD®ˆˆ§ò´àJùùùcˆˆ=ÆˆD®Í7-—ââ½½â’# +Ë…¼¼3-ÛÛ&¶L——õõ_ÉÉ_ªîî„îÉ_‹õåOtÞ“ýggg“¹BØ¯¯ƒƒ©©©©Î¼;%µ(îøò====\\
+ë
+ë6Ì´ò66ÌbíW
+ç
+ç
+œ2¼¼¼¼KKáwèèèè,,ááµEÛqYï………S½ÜF—ÃÃ—7ÍccÍcùD®Í7cpÚ®ÍÍòˆˆ\\Æòù‚Vââ--''''½SÊzImé—xâÛúúkââ&¼¼¼@ªªîî„„__~XX99ššOOšnØ÷÷÷ØØØØddô^©Îúõý
+Ä\ÓÓ==òòÌb´ò666ÌƒƒíW}}2È&&µáwèèRRÂÂááwwKµÛqqï………ïïYï'½ÜF-Ã—¡¡¡7ÍccùpÚùccc®‚ÍÍòˆˆ\\ÆÆcù‚Vââ--''‘‘‘'`×«é½ÕkL¶EE—xx¼R&&ª@ªîî„°õÉ~èÂÂOOnØB÷BBØØÎÎô^©88qR¼§ˆˆ==§=Žøbbˆò
+ë
+U
+ë¢¢WW©^ÈEEµK––RR,ÂáK–,áKqqqYY¤¤¤¤‘‘FFLxÃ-7Í7Í®®D»QÚ®ÍÍ77ÍÍ‚ÓÓ==§§77¡¡——L¶‘‘‘''‘ÜžžrÕk¶ úLxÃ—qqªª__îîÏe_ÉÉ3ÂXw¹OOOnØØØØØB¬BØØ8¢ƒ?©©?ƒíWW¢8§òò§§§=Žøbbˆò
+ë
+U
+ë88WW©È2EEµK––¼¼ –áK–,wáYY‘‘ÜÜâÃ-cùcÍ‚®%D777ccc‚§§====§{——¶ ‘‘‘'½'FFÜÜÜrkÕ ¶&&úŠ¶qqqqªªÉÉXXÏe_É_ÉXîwOåOOnnnØØB¬¬BØØ8¢íƒ?Õ?©ƒíWW
+v
+ë
+ë
+ë$$oæPobbbÌ
+Æ
+0§KK––¼&Û
+¯jj  &¼¼Rnn#÷¬¬ØBBBØØ¹¹##¤ÃÃYYªªªªªª@4Ê44ÃÃ¤’’±@Ö˜˜!‹üfü’¤¤-‘‘'½”þhhŽøbø¡****uEEúLâÕRè3É„îîî„„££èè_õ¶ ¶L¯ÞÞ““²²HÞÅÅÅ™¾TTTäääz¦¦ä		s
+Ý
+¸N
+ë
+ë	ø	ø
+C
+Ù$
+Ž
+ÙobbÌ6
+Æ
+0	å
+{µá,,¼&ÛÛ    ¼RR¼BB¬¬BØØØØØ####¤ÃÃY…@Ö@~~ªžžžÃÃ¤’’±ª@˜˜·!üfü’—k'SS½”*””$ŽøbuÀÀÀÀ¡ÛÛú ¶kkè~É_„îîîîî99è3É Š ¶¯²²gg²H[[Å™¾TTTäääzääNNsss
+ÝNä
+ë
+ë$
+Ž
+C
+Ù
+Ž
+Ž
+ÙbbÌ
+ 
+0
+0
+0
+0j–ááÛÛqq––  &¼qE
+Ë
+Ë¬ØØnšnØØ####Yï:¤¤¤Yïõ‹õ__õ44éS-ÃYïssG±@@lM·ÖÖff±±ÃÃâ¶½éžrhþþh­­C­À*uÀÀÀV&&úkkk~ÉÉ„ÏÏ„„„„è33    E¯ƒ²²²²Ñ;gý¦¦Å™¾Têêzä//™
+m
+m
+Ýss
+Ý™Pºo
+Ù
+Ž
+Ž
+ÙbbÌ
+ \\
+Æ
+Æj–wwqqqq    &qE
+5
+5B##Ønnn¹¹##Yï:¤::Ã-3É_õªªõ‹``½—-ï…ssÝGÖÖÖl·!@@ff--ââSSÜÒhhÒ­CVÀuVVÀV&&¼&k~33î„ÏÏ„„~~33¶¶¶¶E¯ƒ²ÞÞÞgÑgý¦¦Å™¾Têêzä™™™
+m
+m
+Ýss
+Ý
+mÌøb*”*”
+Ù
+Ù›bbòò§¼RR– Kµµµ&&¼&¬gýggHHHH“ýggYï¤¤……xèèÉ_õõª@Ê`4-ï±±ãMÖ@ffffG±fÐõõªªrrrââ—øŽÙÌÌ­00å{‚‚‚‚¶L——¶¶  £ÂÂ~~___ÉÉ___ÉÉÛÛÛEE¯ƒ²HÞH²²gg[[/™Têêê/™™s	¾((¾s
+G	Œ
+¸ÌbøÀ*À*
+Ù
+Ùobbòò
+{
+ú&RR,–µ
+‰
+‰
+‰
+‰
+ú&¼&¬¬¬ý“gg²²gýggÃYïï¤~~É_õõªž444YÝÝy·ª::ÐÐ±GüfõõÜÜÜrââ—ŽPCøø­ÆÆå{‚®®‚ Škk  ¶¶9£ÂÂ~~ÉÉ33ÉÉÉ__ÛÛE¯¯ƒ²H²²²ggÅÅ/™TêêêÅ/™s	¾((¾s
+G
+"NÌ**uß
+Ù
+Ù$$ÌÌòò	åEÛ¼R,,K
+‰
+¯Û¼&÷÷÷²Hýg²gÑÑgýýxYY¤¤ÉÉª@õ_ª44Ê…±sÝ˜lª…ff±±õ_~~ÜÜ‘'——$ææºº$øøÆÆå{7cc7Õ©ŠŠŠ ¶¶îîXX~~33É33É&¯¯¯E¯ƒ²²ýgggÅÅ/™	Ÿ55//™s	
+Ý
+Ý(¾s
+ÝÌ**ußoo$$ÌÌˆˆ§
+{
+¯E&¼,,wKKKKµÛÛ&###HÞýg²HýgÑggg¤ïï¤¤ÉÉªÉ_ª@žžž4ïÝGÖ@ª±ff±…ïõ_~~rr'‘kkøºPPPº$$\\{å7cc7Õ©ôôôŠ¶¶îîîî~~ÉÉ33ÉúEÛE²²HHýgggÅÅÅ/Ÿ			™™™/Ÿ	ssTê	sßI
+³o›PPººooIßßß››o
+Ù
+œ
+œ}©Šô©8ÎÎ8ÈÈ##nnH²gÑŸ55ŸŸŸTTkk       ŠÕ—xÖÖ‹‹GÝTê¾’ÐÐ±±ÐfGïYª'‘kkÕÕÒh³I³³IßoC­Ž$$ŽèRRR~~Ûqqõ_èRRR33ŠŠ©? ¶ŠŠ55êTŸ			Å[Å/TT¾¾™™/[5Ÿ	Ÿ¦¦zN(¾ßI
+³oo$$ººooßuuuo
+Ù
+œ
+œ}©ô^}
+ç¢88Î©©^^BB²;
+¥s		Ÿ55TTÕÕŠŠŠŠ  ÕÕŠô?xÖÖ‹‹±G(¾(üffÐfG…ïª@½'kkÕÕhþ³ññßoC­øŽ$Žè~~~3É&&&úEÛÛq‹õ~èèôô©ôŠŠŠ55êT	ŸŸŸÅ[[ÅTTTT//ÅÅ5Ÿ	Ÿää¾T”
+³
+³$$
+Ù
+Ù$$
+Ùouu**ººoo}}È^}
+ç
+çWí88©©¬¬
+ð
+ðsss	TT		ôŠÕkŠŠÕÕŠŠŠŠŠ -@@@@Ðfüü±…ïïfÐïï_õªªrr''—hþhh‡ññ³$ŽCCŽ$oC33_Éªª¼¼ÛEEÛ&&õ_~~33R¼ôô©^ŠŠôŸ5êT	Ÿ€êzzÅÅêêŸ	äzÅÅTêŸ	zz//TT”II$$oo$$oßß””ººÈ^}}}íƒ88©}÷÷¬¬ŸŸ	s¾¾		ôŠkÕôôkkŠŠ  Šô?k~~¤:::ï………ïYY…fÐïï_õªª½½—---þhÒþI‡ñ‡Žø­­Ž$oo__É3~ª&&¯¯E_ÉèèÉÉ~è ô}Èôô^	ŸêTs	ê€zzÅÅTTŸ	äzÅ™(¾	sNN™ÅTT›Pººº››oo$ººººº*””*©íW¢8÷÷BBÅÅäs	ŸŸ??Õ?©ÕÕ    Šô?ÕÃÃYYÉ__ÉYY¤:É3~õ_~~É_õ‹4žržS½hhh”þ<Åñhh<<³Iß9999îîîî¶ ô^©???Rè33„„££Eíí8ÎííTTŸ	((sŸŸ	Ÿ5[ÅÅÅêêŸs™/™((¾T¾¾›Pºººoo$ºººPP*””*}}}}}}}íW¢8÷÷BB÷÷™™ääs	ŸŸ???©©?kk     ŠÕkYYYYÉ__õïÃ¤3è~É3èè3É_õžrrS½hhþþþ<[‡þþÒ¦ñ‡Iß££99îîXX ŠôŠ?©©©¼R33„„EƒƒÎ8ííTT	s
+’
+’
+Ý	Ÿ	s5ñ[[[êê	
+Ý™/™(((¾¾¾PPº$
+Ù
+Ù
+Ù
+ÙooºP››uuÀÀÈ2
+ç}È2ÈÈ}}
+ç
+çWW¢¢aa÷÷¬¬NNääTTêêŠ Õ?ôŠkk ŠÕkkkk:¤33ª:¤YY333É~~~~~~É_S½ÜÜ½SSSII³³þh‡³””³ññ‡³w££îXwwôô?ÕÕ©©©¼R33£££9úƒíƒííƒêTT¾
+Ý
+Ýs				Ÿññ[[êTs
+Ýää¾¾ss((oºº$
+Ž
+C
+C
+C
+C
+Ù
+Ù$º››ÀÀ^È}È222}}WW¢¢aaaa¬¬ääzzêêêê ¶k ŠkkŠôÕkÕk¤xx3_ª:¤ïïÉÉÉ_@@@ª~3É½'ÜÜ½SééII³³*”³³þþ‡‡‡áwXÂwwôô?ÕÕ©©©&¼9eûRWWíƒ€êT		5Ÿ			Ÿ[[[[T¾s
+ÝNNTTss¾¾
+Ø
+Ø
+Ø5
+Ÿ
+ê€[[
+Å
+/
+Ønš)¿¿¿OOOOn
+Ø##ÞÞ“
+ý
+ý
+ý“)¶ ŠŠ ¶kkÂÂXX}çQçíƒƒƒíƒúd]1|ƒíWíÑÑ††Œ¸"Œy¥ZÄ_!llYÃÃFrrržSSoCøŽoC­C00å{VìV*	ŸŸŸÄÄyyyy....TTTT€¬0#Ë¾’
+Öl˜ÄŽøbÌÌÌ66ë¦¦¦¦Ì6ëëzzÅ/³³þþ”*
+Ø
+Ø
+ØËa¬‡[
+Å
+/
+Ønn“
+ý“¿ååå¹n
+Ø#OtH
+ý
+g
+g
+g“UL¶ŠŠLâÕÂÂXXçQ
+»QWíWWí¯&óÇ|íWWíÑÑ††ŒŒ"Œ¥¥¥¥;ðZ_õÖÖ±ïÃÃFrž½½CCøŽCššå{ìVV*	Ÿ55¥¥ÄÄyyã....TTêêênš5¾’
+Öl.bÌÌbë  66<<¦¦Ì6ëë[Å³³hh”*
+Ø
+
+Ëa[[##nn
+ý
+ý“)šš¹¹nOOtÞ
+ý
+g	Ñ
+gÞ â ŠŠ—ÕXXççQQÁÁÁÁ¢ÎEE]Ç1ÇƒííígÑ††ööŒŒyy¥¥¥¥ðð__ª…FÜ'½½'CCCCøbššå{ußß	Ÿ€¥.ÄÄ.yã˜˜¾TŸŸTê÷÷ËŸ	s!!˜66­b6ëÌbÒ<ññëë6 z[[I³
+Ò
+Ò³ß
+Ø	÷	÷
+Ÿ5€€
+Å
+Å
+
+
+Ø
+Ø““)“nn¹¹šOOtÞ
+ý
+g	Ñ
+gÞ LŠ
+^
+^?Õ??££XX}}ççÁÁÁÁ8]ÇÇ]ƒíííÑ;††``ööMMy¥¥¥ðð_3~…ï¤¤ÜF'½rr½'­­CCøŽCCššOåußß	Ÿ€êãM˜;ZÄãM(¾ss(¾ŸŸ		Ÿ	M!l6666ëë6Ì¦[[ëë6 z[[³
+<
+<I#
+	÷
+T
+ê55¦#
+
+
+HÞtÞ
+ý
+ýHH¹O¹#
+g
+gH
+Û
+8
+8
+8
+Î¯XXwç}}çWWvWíƒƒíƒƒƒAAŒö``öŒ	s	Ÿ55€€¤Y……ïï…k——rÜrr³hÒ‡‡****uÀ*	ŸêTllT€5Ÿ.˜··(((’(¾¾¾˜yM·ll
+äzÅÅzzz
+äUU  ëë6Ìëëëë[ñ¦ØB
+a
+aBØ¹#
+
+T
+ê55¦<O¹##HÞtÞ
+ý
+ý
+²
+²
+#nnnn#¹
+ý
+ýHÞE¯
+Î
+Î
+Îd¯EXXw
+áQççQÁÁvÁWWWææ||Wíƒƒ××Œö``öŒŸ	s	ŸŸêê¤…±±…-———rÜÜÜ³þh‡ññ[**””ßuÀ*	ŸêTl˜¾¾Ÿ5Ä.ããTT(’’(¾¾˜MãM·ll
+äz[[z
+äUU  UU 6ëëUU[ñ¦ØB
+÷
+÷BØnnn5Ë5
+Ÿ
+z<<¹¹n
+ØHÞtÞ
+ý
+ý
+ý
+g
+B
+Ønn¹#n
+ý
+ý“)EEúúdúúúXXw
+áQQQQvÁ+vvÁÁææææWíƒƒ××A«`ö××ŸsÝÝs	ŸŸïïG±…ïï-—'''‘Òh³³‡ñ¦¦**””ßuÀ*¾TŸ	··MãT¾Ÿ5ZÄyyêêsG’(	Ÿ.·MMMlz¦<<<¦zUë66 
+
+ ëU
+¿U¦zBB
+÷
+÷
+Ø
+Ø
+ØËaË5¦<<¹¹n
+ØHÞtÞ
+ý
+ý“
+ý
+ØnO¹n
+Ø
+g
+g“)ÛÛ&úúÂÂw
+áQQQQ¢+
+•
+JvÁÁææPPWíííAAA×Œö««	ÝGGÝGÝ	………±±…YY—kk'''½hÒ³³‡ÒÒ****uÀ*¾TŸ	··MãT¾	ŸÄ.yy¾¾ÝÝ’(s	..ãyyMl
+Ö<<<<¦zUëÌÌ6  6ëë¦z
+äBB
+÷
+÷
+/
+z
+zn¹¹“)))ÞÞ
+ý
+ýnn¹¹
+Å
+Å¦55a÷÷a
+ê
+T
+/
+Å¦Ò^È}}9£ÂÂÕk ŠŠŠŠ ÇÇP
+º+ÁWÁvv++ÁWWW``«×"ŒÊÊ;¤::fÖ@3¶L¶ kkÃå{{ÆšII”*š00ÑÑÑÑ`öö``öA«ööÊ4Ê`ÊÊ`ööö«A«
+S
+SÅñ¦¦¦¦z//¦[[Å[þh³ß*þ³³
+÷hh
+Å¦¦n
+Ø
+¹)“““ÞÞ““nn##
+Å
+Å¦<ËËËaaË
+ê
+T
+Å[<h^Èçç£9XXk Š  ¶L]1æPÁWíWvv++ÁWWWÊÊ«"Œ««öö;;¥¥x:ª3 ¶L¶ÕÕÃ§{ååÆšØØ³³þ”nÑÑÑÑ««öŒŒöŒö«``Ê4ÊŒöÊ`ö`4«
+é
+éÅÅ¦¦z//zÅÅÅ[þh³³þþII
+÷hh                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              XTENSION= 'TABLE   '           / ASCII table extension                          BITPIX  =                    8 / 8 bit bytes                                    NAXIS   =                    2 / 2-dimensional ASCII table                      NAXIS1  =                   24 / Width of table in bytes                        NAXIS2  =                 1600 / Number of rows in table                        PCOUNT  =                    0 / Size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    4 / Number of fields in each row                   EXTNAME = 'xe.mask '           /FITS: Name of Table                             TTYPE1  = 'XI      '           /                                                TBCOL1  =                    1 /                                                TFORM1  = 'F6.2    '           /                                                TUNIT1  = 'DEGREES '           /                                                TTYPE2  = 'ETA     '           /                                                TBCOL2  =                    7 /                                                TFORM2  = 'F6.2    '           /                                                TUNIT2  = 'DEGREES '           /                                                TTYPE3  = 'XI_CORR '           /                                                TBCOL3  =                   13 /                                                TFORM3  = 'F6.2    '           /                                                TUNIT3  = 'ARCSEC  '           /                                                TTYPE4  = 'ETA_CORR'           /                                                TBCOL4  =                   19 /                                                TFORM4  = 'F6.2    '           /                                                TUNIT4  = 'ARCSEC  '           /                                                END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              -3.12 -3.12  0.16  0.19 -2.96 -3.12  0.04  0.25 -2.80 -3.12 -0.16  0.30 -2.64 -3.12 -0.34  0.33 -2.48 -3.12 -0.49  0.36 -2.32 -3.12 -0.60  0.39 -2.16 -3.12 -0.69  0.38 -2.00 -3.12 -0.73  0.32 -1.84 -3.12 -0.81  0.19 -1.68 -3.12 -0.86  0.11 -1.52 -3.12 -0.88  0.05 -1.36 -3.12 -0.86 -0.11 -1.20 -3.12 -0.83 -0.16 -1.04 -3.12 -0.79 -0.13 -0.88 -3.12 -0.76 -0.26 -0.72 -3.12 -0.68 -0.41 -0.56 -3.12 -0.57 -0.48 -0.40 -3.12 -0.44 -0.52 -0.24 -3.12 -0.28 -0.51 -0.08 -3.12 -0.10 -0.46  0.08 -3.12  0.03 -0.47  0.24 -3.12  0.13 -0.52  0.40 -3.12  0.33 -0.59  0.56 -3.12  0.50 -0.54  0.72 -3.12  0.55 -0.43  0.88 -3.12  0.55 -0.34  1.04 -3.12  0.57 -0.30  1.20 -3.12  0.66 -0.21  1.36 -3.12  0.73 -0.11  1.52 -3.12  0.75 -0.02  1.68 -3.12  0.65  0.10  1.84 -3.12  0.59  0.18  2.00 -3.12  0.50  0.22  2.16 -3.12  0.38  0.30  2.32 -3.12  0.21  0.40  2.48 -3.12  0.10  0.39  2.64 -3.12  0.00  0.35  2.80 -3.12 -0.14  0.29  2.96 -3.12 -0.36  0.23  3.12 -3.12 -0.47  0.19 -3.12 -2.96  0.18  0.08 -2.96 -2.96  0.09  0.17 -2.80 -2.96 -0.06  0.27 -2.64 -2.96 -0.20  0.34 -2.48 -2.96 -0.36  0.35 -2.32 -2.96 -0.48  0.35 -2.16 -2.96 -0.55  0.35 -2.00 -2.96 -0.61  0.26 -1.84 -2.96 -0.66  0.13 -1.68 -2.96 -0.70  0.09 -1.52 -2.96 -0.72  0.02 -1.36 -2.96 -0.70 -0.10 -1.20 -2.96 -0.66 -0.16 -1.04 -2.96 -0.65 -0.20 -0.88 -2.96 -0.61 -0.28 -0.72 -2.96 -0.57 -0.39 -0.56 -2.96 -0.46 -0.43 -0.40 -2.96 -0.35 -0.45 -0.24 -2.96 -0.25 -0.44 -0.08 -2.96 -0.11 -0.42  0.08 -2.96 -0.01 -0.41  0.24 -2.96  0.10 -0.47  0.40 -2.96  0.21 -0.47  0.56 -2.96  0.36 -0.45  0.72 -2.96  0.41 -0.39  0.88 -2.96  0.45 -0.33  1.04 -2.96  0.51 -0.26  1.20 -2.96  0.57 -0.21  1.36 -2.96  0.61 -0.14  1.52 -2.96  0.59 -0.06  1.68 -2.96  0.54  0.06  1.84 -2.96  0.48  0.15  2.00 -2.96  0.40  0.21  2.16 -2.96  0.29  0.30  2.32 -2.96  0.14  0.37  2.48 -2.96  0.06  0.32  2.64 -2.96 -0.08  0.27  2.80 -2.96 -0.21  0.23  2.96 -2.96 -0.37  0.17  3.12 -2.96 -0.49  0.13 -3.12 -2.80  0.32 -0.01 -2.96 -2.80  0.24  0.04 -2.80 -2.80  0.11  0.16 -2.64 -2.80 -0.00  0.26 -2.48 -2.80 -0.16  0.27 -2.32 -2.80 -0.30  0.25 -2.16 -2.80 -0.42  0.22 -2.00 -2.80 -0.45  0.16 -1.84 -2.80 -0.46  0.09 -1.68 -2.80 -0.46  0.03 -1.52 -2.80 -0.49 -0.06 -1.36 -2.80 -0.49 -0.15 -1.20 -2.80 -0.46 -0.22 -1.04 -2.80 -0.42 -0.25 -0.88 -2.80 -0.42 -0.33 -0.72 -2.80 -0.37 -0.36 -0.56 -2.80 -0.31 -0.37 -0.40 -2.80 -0.26 -0.36 -0.24 -2.80 -0.21 -0.34 -0.08 -2.80 -0.12 -0.31  0.08 -2.80 -0.04 -0.31  0.24 -2.80  0.01 -0.30  0.40 -2.80  0.07 -0.30  0.56 -2.80  0.17 -0.31  0.72 -2.80  0.25 -0.31  0.88 -2.80  0.31 -0.27  1.04 -2.80  0.37 -0.24  1.20 -2.80  0.41 -0.19  1.36 -2.80  0.41 -0.18  1.52 -2.80  0.38 -0.11  1.68 -2.80  0.35 -0.02  1.84 -2.80  0.32  0.07  2.00 -2.80  0.27  0.16  2.16 -2.80  0.16  0.24  2.32 -2.80  0.05  0.29  2.48 -2.80 -0.03  0.22  2.64 -2.80 -0.15  0.16  2.80 -2.80 -0.31  0.14  2.96 -2.80 -0.47  0.11  3.12 -2.80 -0.55  0.02 -3.12 -2.64  0.50 -0.08 -2.96 -2.64  0.45 -0.01 -2.80 -2.64  0.31  0.04 -2.64 -2.64  0.13  0.08 -2.48 -2.64 -0.01  0.12 -2.32 -2.64 -0.18  0.13 -2.16 -2.64 -0.30  0.09 -2.00 -2.64 -0.32  0.08 -1.84 -2.64 -0.31  0.05 -1.68 -2.64 -0.32 -0.02 -1.52 -2.64 -0.33 -0.15 -1.36 -2.64 -0.33 -0.24 -1.20 -2.64 -0.28 -0.26 -1.04 -2.64 -0.27 -0.25 -0.88 -2.64 -0.24 -0.28 -0.72 -2.64 -0.22 -0.28 -0.56 -2.64 -0.20 -0.28 -0.40 -2.64 -0.21 -0.27 -0.24 -2.64 -0.19 -0.23 -0.08 -2.64 -0.12 -0.21  0.08 -2.64 -0.07 -0.18  0.24 -2.64 -0.06 -0.15  0.40 -2.64 -0.03 -0.14  0.56 -2.64  0.05 -0.18  0.72 -2.64  0.13 -0.18  0.88 -2.64  0.16 -0.17  1.04 -2.64  0.19 -0.16  1.20 -2.64  0.23 -0.15  1.36 -2.64  0.21 -0.10  1.52 -2.64  0.20 -0.09  1.68 -2.64  0.19 -0.05  1.84 -2.64  0.21 -0.03  2.00 -2.64  0.14  0.07  2.16 -2.64  0.07  0.16  2.32 -2.64 -0.02  0.20  2.48 -2.64 -0.11  0.16  2.64 -2.64 -0.25  0.12  2.80 -2.64 -0.37  0.04  2.96 -2.64 -0.50 -0.09  3.12 -2.64 -0.55 -0.19 -3.12 -2.48  0.59 -0.19 -2.96 -2.48  0.53 -0.12 -2.80 -2.48  0.40 -0.04 -2.64 -2.48  0.21 -0.05 -2.48 -2.48  0.04 -0.04 -2.32 -2.48 -0.06  0.02 -2.16 -2.48 -0.11  0.04 -2.00 -2.48 -0.16  0.02 -1.84 -2.48 -0.20 -0.01 -1.68 -2.48 -0.23 -0.05 -1.52 -2.48 -0.22 -0.15 -1.36 -2.48 -0.18 -0.20 -1.20 -2.48 -0.14 -0.18 -1.04 -2.48 -0.12 -0.13 -0.88 -2.48 -0.10 -0.11 -0.72 -2.48 -0.09 -0.13 -0.56 -2.48 -0.11 -0.17 -0.40 -2.48 -0.17 -0.17 -0.24 -2.48 -0.16 -0.16 -0.08 -2.48 -0.12 -0.15  0.08 -2.48 -0.10 -0.10  0.24 -2.48 -0.10 -0.06  0.40 -2.48 -0.07 -0.03  0.56 -2.48 -0.01 -0.04  0.72 -2.48  0.01 -0.04  0.88 -2.48  0.01 -0.02  1.04 -2.48  0.01 -0.00  1.20 -2.48  0.02  0.01  1.36 -2.48  0.03  0.02  1.52 -2.48  0.04  0.04  1.68 -2.48  0.09 -0.02  1.84 -2.48  0.08 -0.05  2.00 -2.48  0.03  0.01  2.16 -2.48 -0.05  0.13  2.32 -2.48 -0.10  0.15  2.48 -2.48 -0.17  0.11  2.64 -2.48 -0.31  0.08  2.80 -2.48 -0.42 -0.06  2.96 -2.48 -0.51 -0.26  3.12 -2.48 -0.53 -0.40 -3.12 -2.32  0.57 -0.35 -2.96 -2.32  0.51 -0.25 -2.80 -2.32  0.37 -0.14 -2.64 -2.32  0.19 -0.09 -2.48 -2.32  0.10 -0.05 -2.32 -2.32  0.05  0.00 -2.16 -2.32  0.04  0.04 -2.00 -2.32 -0.04  0.02 -1.84 -2.32 -0.10 -0.02 -1.68 -2.32 -0.10 -0.02 -1.52 -2.32 -0.03 -0.02 -1.36 -2.32  0.01 -0.02 -1.20 -2.32  0.05  0.01 -1.04 -2.32  0.04  0.05 -0.88 -2.32  0.03  0.02 -0.72 -2.32  0.01 -0.06 -0.56 -2.32 -0.02 -0.08 -0.40 -2.32 -0.06 -0.11 -0.24 -2.32 -0.07 -0.13 -0.08 -2.32 -0.08 -0.15  0.08 -2.32 -0.08 -0.12  0.24 -2.32 -0.07 -0.08  0.40 -2.32 -0.04  0.00  0.56 -2.32 -0.05  0.06  0.72 -2.32 -0.09  0.08  0.88 -2.32 -0.12  0.10  1.04 -2.32 -0.16  0.15  1.20 -2.32 -0.16  0.18  1.36 -2.32 -0.15  0.17  1.52 -2.32 -0.08  0.15  1.68 -2.32 -0.02  0.07  1.84 -2.32 -0.01  0.01  2.00 -2.32 -0.08  0.08  2.16 -2.32 -0.13  0.14  2.32 -2.32 -0.17  0.14  2.48 -2.32 -0.21  0.06  2.64 -2.32 -0.30 -0.01  2.80 -2.32 -0.43 -0.13  2.96 -2.32 -0.49 -0.33  3.12 -2.32 -0.52 -0.44 -3.12 -2.16  0.52 -0.44 -2.96 -2.16  0.44 -0.38 -2.80 -2.16  0.28 -0.25 -2.64 -2.16  0.14 -0.13 -2.48 -2.16  0.11 -0.02 -2.32 -2.16  0.07  0.04 -2.16 -2.16  0.06  0.07 -2.00 -2.16  0.03  0.06 -1.84 -2.16  0.04  0.09 -1.68 -2.16  0.09  0.13 -1.52 -2.16  0.15  0.15 -1.36 -2.16  0.19  0.15 -1.20 -2.16  0.19  0.17 -1.04 -2.16  0.16  0.14 -0.88 -2.16  0.11  0.06 -0.72 -2.16  0.06 -0.02 -0.56 -2.16  0.05 -0.06 -0.40 -2.16  0.04 -0.07 -0.24 -2.16  0.01 -0.09 -0.08 -2.16 -0.02 -0.13  0.08 -2.16 -0.03 -0.12  0.24 -2.16 -0.03 -0.08  0.40 -2.16 -0.05  0.00  0.56 -2.16 -0.09  0.07  0.72 -2.16 -0.15  0.14  0.88 -2.16 -0.19  0.16  1.04 -2.16 -0.22  0.24  1.20 -2.16 -0.26  0.29  1.36 -2.16 -0.26  0.31  1.52 -2.16 -0.20  0.26  1.68 -2.16 -0.13  0.17  1.84 -2.16 -0.12  0.11  2.00 -2.16 -0.14  0.13  2.16 -2.16 -0.15  0.15  2.32 -2.16 -0.14  0.06  2.48 -2.16 -0.20 -0.00  2.64 -2.16 -0.30 -0.08  2.80 -2.16 -0.39 -0.21  2.96 -2.16 -0.46 -0.36  3.12 -2.16 -0.45 -0.46 -3.12 -2.00  0.48 -0.50 -2.96 -2.00  0.36 -0.42 -2.80 -2.00  0.22 -0.31 -2.64 -2.00  0.13 -0.19 -2.48 -2.00  0.07 -0.08 -2.32 -2.00  0.05  0.04 -2.16 -2.00  0.03  0.09 -2.00 -2.00  0.10  0.14 -1.84 -2.00  0.17  0.21 -1.68 -2.00  0.22  0.25 -1.52 -2.00  0.26  0.25 -1.36 -2.00  0.25  0.22 -1.20 -2.00  0.24  0.21 -1.04 -2.00  0.20  0.17 -0.88 -2.00  0.13  0.11 -0.72 -2.00  0.08  0.04 -0.56 -2.00  0.07  0.01 -0.40 -2.00  0.07 -0.01 -0.24 -2.00  0.04 -0.04 -0.08 -2.00 -0.01 -0.07  0.08 -2.00 -0.02 -0.05  0.24 -2.00 -0.08 -0.03  0.40 -2.00 -0.11  0.01  0.56 -2.00 -0.15  0.07  0.72 -2.00 -0.17  0.13  0.88 -2.00 -0.20  0.17  1.04 -2.00 -0.22  0.24  1.20 -2.00 -0.27  0.32  1.36 -2.00 -0.30  0.36  1.52 -2.00 -0.27  0.33  1.68 -2.00 -0.24  0.26  1.84 -2.00 -0.21  0.21  2.00 -2.00 -0.18  0.17  2.16 -2.00 -0.14  0.11  2.32 -2.00 -0.09  0.01  2.48 -2.00 -0.12 -0.09  2.64 -2.00 -0.20 -0.17  2.80 -2.00 -0.31 -0.30  2.96 -2.00 -0.33 -0.48  3.12 -2.00 -0.34 -0.60 -3.12 -1.84  0.33 -0.58 -2.96 -1.84  0.29 -0.46 -2.80 -1.84  0.18 -0.33 -2.64 -1.84  0.09 -0.24 -2.48 -1.84  0.02 -0.15 -2.32 -1.84 -0.00 -0.01 -2.16 -1.84  0.07  0.14 -2.00 -1.84  0.18  0.24 -1.84 -1.84  0.27  0.29 -1.68 -1.84  0.29  0.31 -1.52 -1.84  0.28  0.26 -1.36 -1.84  0.26  0.21 -1.20 -1.84  0.20  0.18 -1.04 -1.84  0.16  0.19 -0.88 -1.84  0.12  0.15 -0.72 -1.84  0.07  0.11 -0.56 -1.84  0.04  0.07 -0.40 -1.84  0.04  0.03 -0.24 -1.84  0.01 -0.01 -0.08 -1.84 -0.00 -0.03  0.08 -1.84 -0.07 -0.01  0.24 -1.84 -0.11  0.03  0.40 -1.84 -0.15  0.05  0.56 -1.84 -0.15  0.06  0.72 -1.84 -0.17  0.09  0.88 -1.84 -0.20  0.13  1.04 -1.84 -0.24  0.20  1.20 -1.84 -0.26  0.28  1.36 -1.84 -0.28  0.33  1.52 -1.84 -0.31  0.35  1.68 -1.84 -0.30  0.33  1.84 -1.84 -0.28  0.29  2.00 -1.84 -0.21  0.25  2.16 -1.84 -0.15  0.15  2.32 -1.84 -0.07 -0.01  2.48 -1.84 -0.04 -0.14  2.64 -1.84 -0.11 -0.21  2.80 -1.84 -0.22 -0.30  2.96 -1.84 -0.26 -0.51  3.12 -1.84 -0.23 -0.66 -3.12 -1.68  0.19 -0.56 -2.96 -1.68  0.20 -0.43 -2.80 -1.68  0.17 -0.30 -2.64 -1.68  0.06 -0.24 -2.48 -1.68 -0.01 -0.17 -2.32 -1.68  0.02  0.02 -2.16 -1.68  0.10  0.18 -2.00 -1.68  0.24  0.29 -1.84 -1.68  0.30  0.31 -1.68 -1.68  0.30  0.29 -1.52 -1.68  0.29  0.23 -1.36 -1.68  0.25  0.19 -1.20 -1.68  0.17  0.17 -1.04 -1.68  0.11  0.17 -0.88 -1.68  0.08  0.15 -0.72 -1.68  0.04  0.13 -0.56 -1.68  0.01  0.09 -0.40 -1.68  0.00  0.04 -0.24 -1.68 -0.01 -0.01 -0.08 -1.68 -0.00 -0.02  0.08 -1.68 -0.05  0.02  0.24 -1.68 -0.12  0.05  0.40 -1.68 -0.13  0.07  0.56 -1.68 -0.11  0.05  0.72 -1.68 -0.14  0.06  0.88 -1.68 -0.21  0.10  1.04 -1.68 -0.25  0.16  1.20 -1.68 -0.26  0.22  1.36 -1.68 -0.27  0.29  1.52 -1.68 -0.29  0.32  1.68 -1.68 -0.31  0.33  1.84 -1.68 -0.30  0.31  2.00 -1.68 -0.26  0.28  2.16 -1.68 -0.17  0.17  2.32 -1.68 -0.06 -0.01  2.48 -1.68  0.01 -0.18  2.64 -1.68 -0.03 -0.20  2.80 -1.68 -0.13 -0.31  2.96 -1.68 -0.15 -0.51  3.12 -1.68 -0.12 -0.67 -3.12 -1.52  0.09 -0.53 -2.96 -1.52  0.12 -0.42 -2.80 -1.52  0.05 -0.32 -2.64 -1.52 -0.03 -0.25 -2.48 -1.52 -0.03 -0.13 -2.32 -1.52  0.05  0.07 -2.16 -1.52  0.15  0.23 -2.00 -1.52  0.25  0.30 -1.84 -1.52  0.29  0.30 -1.68 -1.52  0.29  0.25 -1.52 -1.52  0.26  0.21 -1.36 -1.52  0.22  0.19 -1.20 -1.52  0.15  0.20 -1.04 -1.52  0.09  0.18 -0.88 -1.52  0.05  0.15 -0.72 -1.52  0.03  0.13 -0.56 -1.52  0.01  0.08 -0.40 -1.52 -0.01  0.04 -0.24 -1.52 -0.02  0.01 -0.08 -1.52 -0.02  0.02  0.08 -1.52 -0.08  0.04  0.24 -1.52 -0.13  0.08  0.40 -1.52 -0.14  0.08  0.56 -1.52 -0.11  0.07  0.72 -1.52 -0.13  0.07  0.88 -1.52 -0.19  0.09  1.04 -1.52 -0.24  0.13  1.20 -1.52 -0.25  0.21  1.36 -1.52 -0.25  0.27  1.52 -1.52 -0.26  0.31  1.68 -1.52 -0.30  0.31  1.84 -1.52 -0.31  0.29  2.00 -1.52 -0.30  0.25  2.16 -1.52 -0.25  0.15  2.32 -1.52 -0.12  0.01  2.48 -1.52 -0.01 -0.12  2.64 -1.52  0.02 -0.20  2.80 -1.52 -0.01 -0.31  2.96 -1.52  0.01 -0.53  3.12 -1.52  0.03 -0.71 -3.12 -1.36  0.04 -0.51 -2.96 -1.36  0.01 -0.44 -2.80 -1.36 -0.09 -0.35 -2.64 -1.36 -0.14 -0.26 -2.48 -1.36 -0.09 -0.12 -2.32 -1.36  0.06  0.07 -2.16 -1.36  0.15  0.20 -2.00 -1.36  0.22  0.27 -1.84 -1.36  0.24  0.25 -1.68 -1.36  0.24  0.21 -1.52 -1.36  0.20  0.17 -1.36 -1.36  0.16  0.17 -1.20 -1.36  0.13  0.18 -1.04 -1.36  0.09  0.21 -0.88 -1.36  0.06  0.16 -0.72 -1.36  0.04  0.12 -0.56 -1.36 -0.00  0.11 -0.40 -1.36 -0.00  0.07 -0.24 -1.36 -0.02  0.04 -0.08 -1.36 -0.07  0.05  0.08 -1.36 -0.10  0.08  0.24 -1.36 -0.13  0.09  0.40 -1.36 -0.16  0.09  0.56 -1.36 -0.15  0.09  0.72 -1.36 -0.15  0.09  0.88 -1.36 -0.16  0.10  1.04 -1.36 -0.19  0.12  1.20 -1.36 -0.22  0.17  1.36 -1.36 -0.22  0.25  1.52 -1.36 -0.22  0.27  1.68 -1.36 -0.26  0.28  1.84 -1.36 -0.28  0.25  2.00 -1.36 -0.30  0.22  2.16 -1.36 -0.28  0.14  2.32 -1.36 -0.18  0.04  2.48 -1.36 -0.04 -0.09  2.64 -1.36  0.04 -0.17  2.80 -1.36  0.10 -0.33  2.96 -1.36  0.16 -0.54  3.12 -1.36  0.20 -0.71 -3.12 -1.20 -0.07 -0.53 -2.96 -1.20 -0.11 -0.49 -2.80 -1.20 -0.18 -0.38 -2.64 -1.20 -0.22 -0.25 -2.48 -1.20 -0.16 -0.11 -2.32 -1.20  0.01  0.04 -2.16 -1.20  0.12  0.15 -2.00 -1.20  0.16  0.20 -1.84 -1.20  0.19  0.20 -1.68 -1.20  0.19  0.16 -1.52 -1.20  0.14  0.13 -1.36 -1.20  0.11  0.12 -1.20 -1.20  0.10  0.15 -1.04 -1.20  0.10  0.17 -0.88 -1.20  0.08  0.14 -0.72 -1.20  0.03  0.10 -0.56 -1.20  0.00  0.09 -0.40 -1.20 -0.03  0.10 -0.24 -1.20 -0.08  0.06 -0.08 -1.20 -0.10  0.07  0.08 -1.20 -0.11  0.07  0.24 -1.20 -0.12  0.07  0.40 -1.20 -0.16  0.07  0.56 -1.20 -0.17  0.08  0.72 -1.20 -0.14  0.08  0.88 -1.20 -0.12  0.10  1.04 -1.20 -0.14  0.11  1.20 -1.20 -0.17  0.16  1.36 -1.20 -0.17  0.22  1.52 -1.20 -0.18  0.24  1.68 -1.20 -0.21  0.23  1.84 -1.20 -0.21  0.23  2.00 -1.20 -0.21  0.20  2.16 -1.20 -0.21  0.16  2.32 -1.20 -0.16  0.07  2.48 -1.20 -0.07 -0.04  2.64 -1.20  0.02 -0.13  2.80 -1.20  0.15 -0.30  2.96 -1.20  0.28 -0.50  3.12 -1.20  0.33 -0.62 -3.12 -1.04 -0.24 -0.59 -2.96 -1.04 -0.23 -0.50 -2.80 -1.04 -0.25 -0.40 -2.64 -1.04 -0.23 -0.28 -2.48 -1.04 -0.14 -0.13 -2.32 -1.04 -0.00  0.02 -2.16 -1.04  0.06  0.09 -2.00 -1.04  0.09  0.15 -1.84 -1.04  0.12  0.16 -1.68 -1.04  0.13  0.13 -1.52 -1.04  0.11  0.09 -1.36 -1.04  0.10  0.10 -1.20 -1.04  0.10  0.11 -1.04 -1.04  0.10  0.12 -0.88 -1.04  0.07  0.09 -0.72 -1.04  0.04  0.05 -0.56 -1.04 -0.02  0.06 -0.40 -1.04 -0.07  0.07 -0.24 -1.04 -0.09  0.05 -0.08 -1.04 -0.07  0.04  0.08 -1.04 -0.06  0.03  0.24 -1.04 -0.08  0.03  0.40 -1.04 -0.12  0.04  0.56 -1.04 -0.12  0.06  0.72 -1.04 -0.08  0.07  0.88 -1.04 -0.05  0.07  1.04 -1.04 -0.10  0.09  1.20 -1.04 -0.12  0.15  1.36 -1.04 -0.14  0.18  1.52 -1.04 -0.14  0.19  1.68 -1.04 -0.15  0.23  1.84 -1.04 -0.13  0.19  2.00 -1.04 -0.11  0.18  2.16 -1.04 -0.08  0.11  2.32 -1.04 -0.09  0.06  2.48 -1.04 -0.01 -0.03  2.64 -1.04  0.09 -0.13  2.80 -1.04  0.21 -0.29  2.96 -1.04  0.35 -0.46  3.12 -1.04  0.45 -0.57 -3.12 -0.88 -0.38 -0.60 -2.96 -0.88 -0.34 -0.51 -2.80 -0.88 -0.29 -0.40 -2.64 -0.88 -0.23 -0.30 -2.48 -0.88 -0.12 -0.15 -2.32 -0.88 -0.01 -0.00 -2.16 -0.88  0.01  0.07 -2.00 -0.88  0.04  0.11 -1.84 -0.88  0.06  0.12 -1.68 -0.88  0.06  0.09 -1.52 -0.88  0.08  0.07 -1.36 -0.88  0.11  0.07 -1.20 -0.88  0.10  0.07 -1.04 -0.88  0.10  0.07 -0.88 -0.88  0.09  0.06 -0.72 -0.88  0.04  0.04 -0.56 -0.88 -0.02  0.04 -0.40 -0.88 -0.08  0.03 -0.24 -0.88 -0.06  0.02 -0.08 -0.88 -0.03  0.00  0.08 -0.88 -0.05 -0.01  0.24 -0.88 -0.08  0.01  0.40 -0.88 -0.09  0.04  0.56 -0.88 -0.08  0.07  0.72 -0.88 -0.05  0.04  0.88 -0.88 -0.02  0.02  1.04 -0.88 -0.06  0.05  1.20 -0.88 -0.10  0.10  1.36 -0.88 -0.12  0.13  1.52 -0.88 -0.11  0.17  1.68 -0.88 -0.09  0.19  1.84 -0.88 -0.07  0.18  2.00 -0.88 -0.06  0.13  2.16 -0.88 -0.05  0.08  2.32 -0.88 -0.05  0.03  2.48 -0.88  0.02 -0.04  2.64 -0.88  0.13 -0.11  2.80 -0.88  0.28 -0.28  2.96 -0.88  0.43 -0.45  3.12 -0.88  0.56 -0.54 -3.12 -0.72 -0.48 -0.52 -2.96 -0.72 -0.40 -0.46 -2.80 -0.72 -0.34 -0.37 -2.64 -0.72 -0.24 -0.28 -2.48 -0.72 -0.14 -0.16 -2.32 -0.72 -0.07 -0.04 -2.16 -0.72 -0.03  0.04 -2.00 -0.72 -0.01  0.06 -1.84 -0.72  0.03  0.08 -1.68 -0.72  0.05  0.07 -1.52 -0.72  0.08  0.06 -1.36 -0.72  0.11  0.05 -1.20 -0.72  0.11  0.05 -1.04 -0.72  0.10  0.05 -0.88 -0.72  0.08  0.05 -0.72 -0.72  0.02  0.06 -0.56 -0.72 -0.04  0.01 -0.40 -0.72 -0.06 -0.02 -0.24 -0.72 -0.03 -0.05 -0.08 -0.72 -0.04 -0.05  0.08 -0.72 -0.08 -0.04  0.24 -0.72 -0.06 -0.02  0.40 -0.72 -0.06  0.04  0.56 -0.72 -0.07  0.06  0.72 -0.72 -0.03  0.03  0.88 -0.72 -0.01  0.01  1.04 -0.72 -0.05  0.03  1.20 -0.72 -0.09  0.06  1.36 -0.72 -0.09  0.08  1.52 -0.72 -0.07  0.12  1.68 -0.72 -0.05  0.15  1.84 -0.72 -0.02  0.12  2.00 -0.72 -0.02  0.09  2.16 -0.72 -0.03  0.05  2.32 -0.72 -0.01  0.00  2.48 -0.72  0.05 -0.05  2.64 -0.72  0.14 -0.10  2.80 -0.72  0.32 -0.24  2.96 -0.72  0.49 -0.42  3.12 -0.72  0.57 -0.51 -3.12 -0.56 -0.51 -0.41 -2.96 -0.56 -0.50 -0.37 -2.80 -0.56 -0.37 -0.29 -2.64 -0.56 -0.25 -0.23 -2.48 -0.56 -0.17 -0.16 -2.32 -0.56 -0.12 -0.06 -2.16 -0.56 -0.06  0.01 -2.00 -0.56 -0.03  0.03 -1.84 -0.56  0.01  0.05 -1.68 -0.56  0.05  0.06 -1.52 -0.56  0.08  0.07 -1.36 -0.56  0.10  0.05 -1.20 -0.56  0.10  0.05 -1.04 -0.56  0.08  0.05 -0.88 -0.56  0.06  0.04 -0.72 -0.56  0.01  0.01 -0.56 -0.56 -0.02  0.00 -0.40 -0.56 -0.02 -0.07 -0.24 -0.56 -0.03 -0.09 -0.08 -0.56 -0.08 -0.10  0.08 -0.56 -0.11 -0.08  0.24 -0.56 -0.09 -0.06  0.40 -0.56 -0.07 -0.01  0.56 -0.56 -0.08  0.03  0.72 -0.56 -0.05  0.02  0.88 -0.56  0.00 -0.00  1.04 -0.56 -0.02  0.02  1.20 -0.56 -0.06  0.04  1.36 -0.56 -0.04  0.05  1.52 -0.56 -0.02  0.07  1.68 -0.56 -0.00  0.09  1.84 -0.56  0.01  0.07  2.00 -0.56  0.02  0.07  2.16 -0.56  0.05  0.05  2.32 -0.56  0.06  0.01  2.48 -0.56  0.09 -0.05  2.64 -0.56  0.17 -0.10  2.80 -0.56  0.33 -0.19  2.96 -0.56  0.49 -0.33  3.12 -0.56  0.59 -0.45 -3.12 -0.40 -0.57 -0.29 -2.96 -0.40 -0.52 -0.25 -2.80 -0.40 -0.37 -0.19 -2.64 -0.40 -0.22 -0.18 -2.48 -0.40 -0.18 -0.16 -2.32 -0.40 -0.17 -0.09 -2.16 -0.40 -0.10  0.00 -2.00 -0.40 -0.05  0.04 -1.84 -0.40  0.01  0.05 -1.68 -0.40  0.04  0.06 -1.52 -0.40  0.06  0.07 -1.36 -0.40  0.08  0.05 -1.20 -0.40  0.08  0.03 -1.04 -0.40  0.08  0.03 -0.88 -0.40  0.04  0.01 -0.72 -0.40  0.02 -0.04 -0.56 -0.40  0.02 -0.07 -0.40 -0.40 -0.01 -0.08 -0.24 -0.40 -0.04 -0.11 -0.08 -0.40 -0.09 -0.09  0.08 -0.40 -0.10 -0.07  0.24 -0.40 -0.08 -0.07  0.40 -0.40 -0.04 -0.04  0.56 -0.40 -0.05  0.01  0.72 -0.40 -0.03  0.00  0.88 -0.40  0.01 -0.03  1.04 -0.40  0.00  0.00  1.20 -0.40 -0.01  0.05  1.36 -0.40 -0.01  0.06  1.52 -0.40  0.02  0.06  1.68 -0.40  0.04  0.05  1.84 -0.40  0.04  0.02  2.00 -0.40  0.08  0.02  2.16 -0.40  0.12  0.04  2.32 -0.40  0.13  0.01  2.48 -0.40  0.13 -0.06  2.64 -0.40  0.21 -0.10  2.80 -0.40  0.37 -0.17  2.96 -0.40  0.52 -0.27  3.12 -0.40  0.59 -0.35 -3.12 -0.24 -0.59 -0.13 -2.96 -0.24 -0.52 -0.12 -2.80 -0.24 -0.37 -0.12 -2.64 -0.24 -0.21 -0.16 -2.48 -0.24 -0.16 -0.15 -2.32 -0.24 -0.18 -0.09 -2.16 -0.24 -0.14  0.01 -2.00 -0.24 -0.04  0.06 -1.84 -0.24  0.02  0.08 -1.68 -0.24  0.02  0.08 -1.52 -0.24  0.04  0.06 -1.36 -0.24  0.04  0.02 -1.20 -0.24  0.05 -0.01 -1.04 -0.24  0.05 -0.02 -0.88 -0.24  0.06 -0.04 -0.72 -0.24  0.07 -0.08 -0.56 -0.24  0.05 -0.06 -0.40 -0.24  0.01 -0.06 -0.24 -0.24 -0.03 -0.07 -0.08 -0.24 -0.06 -0.06  0.08 -0.24 -0.07 -0.03  0.24 -0.24 -0.05 -0.05  0.40 -0.24 -0.03 -0.02  0.56 -0.24 -0.02  0.02  0.72 -0.24 -0.01 -0.01  0.88 -0.24 -0.00 -0.06  1.04 -0.24  0.02 -0.04  1.20 -0.24 -0.00  0.02  1.36 -0.24 -0.01  0.07  1.52 -0.24  0.02  0.06  1.68 -0.24  0.05  0.03  1.84 -0.24  0.08 -0.01  2.00 -0.24  0.13 -0.01  2.16 -0.24  0.15 -0.01  2.32 -0.24  0.14 -0.00  2.48 -0.24  0.12 -0.05  2.64 -0.24  0.21 -0.08  2.80 -0.24  0.40 -0.13  2.96 -0.24  0.56 -0.19  3.12 -0.24  0.59 -0.23 -3.12 -0.08 -0.56  0.05 -2.96 -0.08 -0.53  0.01 -2.80 -0.08 -0.36 -0.06 -2.64 -0.08 -0.20 -0.11 -2.48 -0.08 -0.14 -0.09 -2.32 -0.08 -0.17 -0.03 -2.16 -0.08 -0.13  0.06 -2.00 -0.08 -0.05  0.10 -1.84 -0.08 -0.00  0.11 -1.68 -0.08  0.03  0.08 -1.52 -0.08  0.02  0.02 -1.36 -0.08  0.03 -0.03 -1.20 -0.08  0.02 -0.04 -1.04 -0.08  0.01 -0.03 -0.88 -0.08  0.02 -0.05 -0.72 -0.08  0.05 -0.07 -0.56 -0.08  0.02 -0.06 -0.40 -0.08 -0.01 -0.07 -0.24 -0.08 -0.02 -0.06 -0.08 -0.08 -0.05 -0.02  0.08 -0.08 -0.05 -0.02  0.24 -0.08 -0.03 -0.00  0.40 -0.08 -0.04  0.00  0.56 -0.08 -0.06  0.02  0.72 -0.08 -0.05 -0.01  0.88 -0.08 -0.01 -0.03  1.04 -0.08 -0.01 -0.03  1.20 -0.08 -0.02  0.03  1.36 -0.08 -0.02  0.06  1.52 -0.08  0.01  0.07  1.68 -0.08  0.04  0.02  1.84 -0.08  0.07 -0.03  2.00 -0.08  0.12 -0.06  2.16 -0.08  0.17 -0.06  2.32 -0.08  0.17 -0.04  2.48 -0.08  0.14 -0.05  2.64 -0.08  0.21 -0.08  2.80 -0.08  0.40 -0.09  2.96 -0.08  0.54 -0.08  3.12 -0.08  0.57 -0.10 -3.12  0.08 -0.60  0.19 -2.96  0.08 -0.53  0.15 -2.80  0.08 -0.39  0.07 -2.64  0.08 -0.20 -0.02 -2.48  0.08 -0.16 -0.01 -2.32  0.08 -0.14  0.04 -2.16  0.08 -0.11  0.08 -2.00  0.08 -0.06  0.10 -1.84  0.08 -0.04  0.10 -1.68  0.08 -0.01  0.06 -1.52  0.08  0.01 -0.02 -1.36  0.08  0.01 -0.06 -1.20  0.08 -0.00 -0.05 -1.04  0.08 -0.01 -0.03 -0.88  0.08 -0.01 -0.03 -0.72  0.08 -0.01 -0.04 -0.56  0.08 -0.00 -0.05 -0.40  0.08 -0.01 -0.05 -0.24  0.08 -0.03 -0.03 -0.08  0.08 -0.04 -0.03  0.08  0.08 -0.05 -0.02  0.24  0.08 -0.06 -0.02  0.40  0.08 -0.09  0.01  0.56  0.08 -0.12  0.00  0.72  0.08 -0.09 -0.01  0.88  0.08 -0.03 -0.03  1.04  0.08 -0.01 -0.01  1.20  0.08 -0.01  0.02  1.36  0.08  0.00  0.06  1.52  0.08  0.06  0.04  1.68  0.08  0.06 -0.01  1.84  0.08  0.04 -0.06  2.00  0.08  0.08 -0.08  2.16  0.08  0.14 -0.08  2.32  0.08  0.16 -0.07  2.48  0.08  0.17 -0.05  2.64  0.08  0.24 -0.02  2.80  0.08  0.39  0.03  2.96  0.08  0.53  0.06  3.12  0.08  0.56  0.09 -3.12  0.24 -0.64  0.32 -2.96  0.24 -0.58  0.30 -2.80  0.24 -0.39  0.20 -2.64  0.24 -0.24  0.09 -2.48  0.24 -0.16  0.05 -2.32  0.24 -0.14  0.07 -2.16  0.24 -0.09  0.08 -2.00  0.24 -0.04  0.08 -1.84  0.24 -0.04  0.06 -1.68  0.24 -0.02  0.00 -1.52  0.24 -0.01 -0.05 -1.36  0.24  0.01 -0.06 -1.20  0.24  0.00 -0.01 -1.04  0.24  0.01 -0.00 -0.88  0.24 -0.01 -0.03 -0.72  0.24 -0.03 -0.05 -0.56  0.24 -0.02 -0.01 -0.40  0.24 -0.04 -0.00 -0.24  0.24 -0.05 -0.04 -0.08  0.24 -0.07 -0.04  0.08  0.24 -0.08 -0.03  0.24  0.24 -0.08 -0.02  0.40  0.24 -0.10 -0.02  0.56  0.24 -0.08  0.01  0.72  0.24 -0.07 -0.01  0.88  0.24 -0.02 -0.02  1.04  0.24 -0.02 -0.04  1.20  0.24 -0.01  0.00  1.36  0.24  0.03  0.02  1.52  0.24  0.09  0.01  1.68  0.24  0.10 -0.03  1.84  0.24  0.06 -0.05  2.00  0.24  0.03 -0.05  2.16  0.24  0.08 -0.05  2.32  0.24  0.13 -0.06  2.48  0.24  0.15 -0.02  2.64  0.24  0.24  0.07  2.80  0.24  0.38  0.13  2.96  0.24  0.52  0.18  3.12  0.24  0.62  0.21 -3.12  0.40 -0.63  0.48 -2.96  0.40 -0.56  0.41 -2.80  0.40 -0.43  0.28 -2.64  0.40 -0.24  0.16 -2.48  0.40 -0.17  0.08 -2.32  0.40 -0.13  0.06 -2.16  0.40 -0.09  0.07 -2.00  0.40 -0.07  0.09 -1.84  0.40 -0.04  0.04 -1.68  0.40 -0.00 -0.00 -1.52  0.40 -0.00 -0.04 -1.36  0.40 -0.00 -0.03 -1.20  0.40  0.02  0.00 -1.04  0.40  0.01  0.01 -0.88  0.40  0.02 -0.05 -0.72  0.40  0.01 -0.03 -0.56  0.40 -0.02  0.02 -0.40  0.40 -0.03  0.03 -0.24  0.40 -0.05 -0.03 -0.08  0.40 -0.08 -0.05  0.08  0.40 -0.08 -0.01  0.24  0.40 -0.08  0.01  0.40  0.40 -0.06 -0.01  0.56  0.40 -0.05  0.00  0.72  0.40 -0.04 -0.01  0.88  0.40 -0.01 -0.05  1.04  0.40 -0.02 -0.06  1.20  0.40 -0.02 -0.05  1.36  0.40  0.02 -0.03  1.52  0.40  0.08 -0.02  1.68  0.40  0.08 -0.03  1.84  0.40  0.04 -0.04  2.00  0.40  0.06 -0.01  2.16  0.40  0.05 -0.02  2.32  0.40  0.08 -0.01  2.48  0.40  0.11  0.06  2.64  0.40  0.22  0.14  2.80  0.40  0.37  0.23  2.96  0.40  0.52  0.29  3.12  0.40  0.60  0.34 -3.12  0.56 -0.50  0.59 -2.96  0.56 -0.49  0.50 -2.80  0.56 -0.38  0.35 -2.64  0.56 -0.23  0.19 -2.48  0.56 -0.14  0.09 -2.32  0.56 -0.10  0.05 -2.16  0.56 -0.09  0.05 -2.00  0.56 -0.08  0.07 -1.84  0.56 -0.05  0.06 -1.68  0.56 -0.00  0.01 -1.52  0.56  0.01 -0.02 -1.36  0.56  0.01 -0.01 -1.20  0.56  0.02  0.00 -1.04  0.56  0.04 -0.00 -0.88  0.56  0.03 -0.03 -0.72  0.56  0.02 -0.01 -0.56  0.56  0.02  0.04 -0.40  0.56 -0.02  0.02 -0.24  0.56 -0.02 -0.04 -0.08  0.56 -0.05 -0.05  0.08  0.56 -0.06  0.01  0.24  0.56 -0.05  0.05  0.40  0.56 -0.05  0.05  0.56  0.56 -0.06  0.02  0.72  0.56 -0.07 -0.01  0.88  0.56 -0.04 -0.03  1.04  0.56 -0.04 -0.04  1.20  0.56 -0.03 -0.04  1.36  0.56 -0.01 -0.05  1.52  0.56  0.02 -0.07  1.68  0.56  0.02 -0.07  1.84  0.56  0.04 -0.06  2.00  0.56  0.05 -0.04  2.16  0.56  0.05 -0.03  2.32  0.56  0.01 -0.00  2.48  0.56  0.05  0.06  2.64  0.56  0.21  0.17  2.80  0.56  0.40  0.27  2.96  0.56  0.51  0.39  3.12  0.56  0.55  0.46 -3.12  0.72 -0.45  0.64 -2.96  0.72 -0.42  0.56 -2.80  0.72 -0.32  0.38 -2.64  0.72 -0.18  0.23 -2.48  0.72 -0.10  0.09 -2.32  0.72 -0.04  0.02 -2.16  0.72 -0.03 -0.01 -2.00  0.72 -0.04  0.02 -1.84  0.72 -0.04 -0.00 -1.68  0.72 -0.03 -0.02 -1.52  0.72  0.01 -0.04 -1.36  0.72  0.03 -0.02 -1.20  0.72  0.05 -0.02 -1.04  0.72  0.06 -0.01 -0.88  0.72  0.05 -0.01 -0.72  0.72  0.03  0.00 -0.56  0.72  0.02  0.03 -0.40  0.72  0.01  0.05 -0.24  0.72 -0.01 -0.02 -0.08  0.72 -0.01 -0.04  0.08  0.72 -0.03  0.04  0.24  0.72 -0.02  0.10  0.40  0.72 -0.04  0.07  0.56  0.72 -0.07  0.05  0.72  0.72 -0.09  0.02  0.88  0.72 -0.08 -0.00  1.04  0.72 -0.08 -0.01  1.20  0.72 -0.05 -0.04  1.36  0.72 -0.04 -0.10  1.52  0.72 -0.03 -0.14  1.68  0.72  0.00 -0.13  1.84  0.72  0.02 -0.14  2.00  0.72  0.04 -0.12  2.16  0.72 -0.00 -0.10  2.32  0.72 -0.03 -0.03  2.48  0.72  0.01  0.06  2.64  0.72  0.21  0.19  2.80  0.72  0.40  0.34  2.96  0.72  0.49  0.49  3.12  0.72  0.49  0.56 -3.12  0.88 -0.43  0.71 -2.96  0.88 -0.37  0.59 -2.80  0.88 -0.29  0.41 -2.64  0.88 -0.17  0.24 -2.48  0.88 -0.06  0.08 -2.32  0.88  0.01 -0.04 -2.16  0.88  0.04 -0.06 -2.00  0.88  0.03 -0.04 -1.84  0.88 -0.00 -0.07 -1.68  0.88  0.02 -0.10 -1.52  0.88  0.06 -0.08 -1.36  0.88  0.06 -0.02 -1.20  0.88  0.08 -0.01 -1.04  0.88  0.07  0.02 -0.88  0.88  0.04  0.01 -0.72  0.88  0.02  0.01 -0.56  0.88  0.02  0.04 -0.40  0.88  0.01  0.04 -0.24  0.88  0.01 -0.00 -0.08  0.88 -0.03 -0.02  0.08  0.88 -0.03  0.04  0.24  0.88 -0.02  0.09  0.40  0.88 -0.01  0.08  0.56  0.88 -0.05  0.04  0.72  0.88 -0.10  0.03  0.88  0.88 -0.12  0.02  1.04  0.88 -0.14  0.00  1.20  0.88 -0.12 -0.05  1.36  0.88 -0.08 -0.11  1.52  0.88 -0.04 -0.15  1.68  0.88 -0.02 -0.17  1.84  0.88 -0.01 -0.19  2.00  0.88 -0.03 -0.20  2.16  0.88 -0.05 -0.17  2.32  0.88 -0.06 -0.07  2.48  0.88 -0.01  0.10  2.64  0.88  0.12  0.26  2.80  0.88  0.29  0.40  2.96  0.88  0.41  0.56  3.12  0.88  0.40  0.67 -3.12  1.04 -0.30  0.71 -2.96  1.04 -0.28  0.60 -2.80  1.04 -0.25  0.41 -2.64  1.04 -0.18  0.23 -2.48  1.04 -0.05  0.03 -2.32  1.04  0.04 -0.09 -2.16  1.04  0.08 -0.13 -2.00  1.04  0.07 -0.12 -1.84  1.04  0.08 -0.14 -1.68  1.04  0.10 -0.14 -1.52  1.04  0.13 -0.12 -1.36  1.04  0.11 -0.06 -1.20  1.04  0.09 -0.03 -1.04  1.04  0.06 -0.02 -0.88  1.04  0.03  0.00 -0.72  1.04  0.01  0.01 -0.56  1.04 -0.01  0.01 -0.40  1.04  0.01  0.02 -0.24  1.04 -0.01  0.01 -0.08  1.04 -0.03  0.01  0.08  1.04 -0.05  0.05  0.24  1.04 -0.01  0.10  0.40  1.04 -0.01  0.06  0.56  1.04 -0.04  0.03  0.72  1.04 -0.08  0.01  0.88  1.04 -0.13  0.00  1.04  1.04 -0.16 -0.01  1.20  1.04 -0.14 -0.03  1.36  1.04 -0.10 -0.07  1.52  1.04 -0.09 -0.12  1.68  1.04 -0.09 -0.16  1.84  1.04 -0.10 -0.19  2.00  1.04 -0.09 -0.22  2.16  1.04 -0.10 -0.20  2.32  1.04 -0.07 -0.06  2.48  1.04 -0.01  0.14  2.64  1.04  0.06  0.33  2.80  1.04  0.18  0.47  2.96  1.04  0.28  0.62  3.12  1.04  0.35  0.74 -3.12  1.20 -0.19  0.69 -2.96  1.20 -0.19  0.59 -2.80  1.20 -0.21  0.41 -2.64  1.20 -0.18  0.20 -2.48  1.20 -0.06  0.00 -2.32  1.20  0.04 -0.13 -2.16  1.20  0.09 -0.19 -2.00  1.20  0.14 -0.19 -1.84  1.20  0.18 -0.17 -1.68  1.20  0.20 -0.16 -1.52  1.20  0.19 -0.14 -1.36  1.20  0.18 -0.11 -1.20  1.20  0.12 -0.10 -1.04  1.20  0.04 -0.08 -0.88  1.20  0.01 -0.04 -0.72  1.20 -0.00 -0.02 -0.56  1.20 -0.01 -0.01 -0.40  1.20 -0.01  0.00 -0.24  1.20  0.01  0.00 -0.08  1.20 -0.01  0.02  0.08  1.20 -0.01  0.06  0.24  1.20 -0.01  0.08  0.40  1.20 -0.02  0.03  0.56  1.20 -0.03  0.00  0.72  1.20 -0.06 -0.02  0.88  1.20 -0.12 -0.04  1.04  1.20 -0.15 -0.05  1.20  1.20 -0.14 -0.01  1.36  1.20 -0.12 -0.07  1.52  1.20 -0.15 -0.12  1.68  1.20 -0.17 -0.16  1.84  1.20 -0.14 -0.19  2.00  1.20 -0.15 -0.23  2.16  1.20 -0.15 -0.17  2.32  1.20 -0.10 -0.06  2.48  1.20 -0.03  0.15  2.64  1.20  0.07  0.37  2.80  1.20  0.11  0.54  2.96  1.20  0.19  0.68  3.12  1.20  0.30  0.81 -3.12  1.36 -0.10  0.72 -2.96  1.36 -0.13  0.61 -2.80  1.36 -0.16  0.40 -2.64  1.36 -0.14  0.19 -2.48  1.36 -0.08  0.00 -2.32  1.36  0.03 -0.15 -2.16  1.36  0.10 -0.23 -2.00  1.36  0.18 -0.24 -1.84  1.36  0.23 -0.23 -1.68  1.36  0.21 -0.21 -1.52  1.36  0.22 -0.20 -1.36  1.36  0.23 -0.17 -1.20  1.36  0.16 -0.12 -1.04  1.36  0.07 -0.10 -0.88  1.36  0.00 -0.07 -0.72  1.36  0.03 -0.05 -0.56  1.36  0.02  0.01 -0.40  1.36  0.03  0.03 -0.24  1.36  0.03  0.03 -0.08  1.36  0.02  0.03  0.08  1.36  0.01  0.05  0.24  1.36 -0.01  0.07  0.40  1.36 -0.01  0.02  0.56  1.36 -0.04  0.01  0.72  1.36 -0.04 -0.04  0.88  1.36 -0.11 -0.07  1.04  1.36 -0.14 -0.07  1.20  1.36 -0.12 -0.03  1.36  1.36 -0.14 -0.08  1.52  1.36 -0.19 -0.15  1.68  1.36 -0.16 -0.20  1.84  1.36 -0.17 -0.23  2.00  1.36 -0.18 -0.23  2.16  1.36 -0.19 -0.14  2.32  1.36 -0.12 -0.00  2.48  1.36  0.00  0.19  2.64  1.36  0.09  0.39  2.80  1.36  0.10  0.60  2.96  1.36  0.12  0.75  3.12  1.36  0.17  0.85 -3.12  1.52 -0.02  0.77 -2.96  1.52 -0.05  0.63 -2.80  1.52 -0.08  0.40 -2.64  1.52 -0.08  0.18 -2.48  1.52 -0.06  0.01 -2.32  1.52 -0.01 -0.14 -2.16  1.52  0.12 -0.22 -2.00  1.52  0.22 -0.25 -1.84  1.52  0.24 -0.25 -1.68  1.52  0.22 -0.27 -1.52  1.52  0.23 -0.25 -1.36  1.52  0.24 -0.21 -1.20  1.52  0.19 -0.12 -1.04  1.52  0.09 -0.07 -0.88  1.52  0.07 -0.08 -0.72  1.52  0.07 -0.06 -0.56  1.52  0.07  0.00 -0.40  1.52  0.09  0.06 -0.24  1.52  0.06  0.04 -0.08  1.52  0.01  0.02  0.08  1.52 -0.03  0.04  0.24  1.52 -0.01  0.03  0.40  1.52 -0.02  0.01  0.56  1.52 -0.05  0.02  0.72  1.52 -0.06 -0.03  0.88  1.52 -0.10 -0.08  1.04  1.52 -0.12 -0.10  1.20  1.52 -0.13 -0.07  1.36  1.52 -0.15 -0.12  1.52  1.52 -0.17 -0.20  1.68  1.52 -0.15 -0.26  1.84  1.52 -0.14 -0.27  2.00  1.52 -0.16 -0.24  2.16  1.52 -0.17 -0.12  2.32  1.52 -0.10  0.03  2.48  1.52 -0.00  0.21  2.64  1.52  0.05  0.42  2.80  1.52  0.04  0.65  2.96  1.52  0.03  0.82  3.12  1.52  0.03  0.90 -3.12  1.68  0.05  0.77 -2.96  1.68  0.03  0.61 -2.80  1.68 -0.03  0.39 -2.64  1.68 -0.05  0.19 -2.48  1.68 -0.07  0.03 -2.32  1.68  0.01 -0.09 -2.16  1.68  0.14 -0.17 -2.00  1.68  0.26 -0.24 -1.84  1.68  0.29 -0.28 -1.68  1.68  0.27 -0.30 -1.52  1.68  0.26 -0.29 -1.36  1.68  0.26 -0.24 -1.20  1.68  0.19 -0.15 -1.04  1.68  0.16 -0.11 -0.88  1.68  0.13 -0.07 -0.72  1.68  0.12 -0.03 -0.56  1.68  0.09  0.05 -0.40  1.68  0.08  0.03 -0.24  1.68  0.07  0.01 -0.08  1.68  0.00  0.02  0.08  1.68 -0.03  0.04  0.24  1.68 -0.05  0.04  0.40  1.68 -0.05  0.01  0.56  1.68 -0.06  0.02  0.72  1.68 -0.06 -0.02  0.88  1.68 -0.08 -0.06  1.04  1.68 -0.12 -0.09  1.20  1.68 -0.16 -0.10  1.36  1.68 -0.18 -0.17  1.52  1.68 -0.19 -0.24  1.68  1.68 -0.17 -0.28  1.84  1.68 -0.14 -0.28  2.00  1.68 -0.12 -0.23  2.16  1.68 -0.11 -0.11  2.32  1.68 -0.06  0.04  2.48  1.68 -0.02  0.20  2.64  1.68 -0.04  0.36  2.80  1.68 -0.06  0.61  2.96  1.68 -0.09  0.82  3.12  1.68 -0.11  0.94 -3.12  1.84  0.14  0.69 -2.96  1.84  0.12  0.52 -2.80  1.84  0.07  0.31 -2.64  1.84  0.00  0.16 -2.48  1.84 -0.02  0.06 -2.32  1.84  0.04 -0.06 -2.16  1.84  0.13 -0.13 -2.00  1.84  0.23 -0.20 -1.84  1.84  0.30 -0.27 -1.68  1.84  0.31 -0.30 -1.52  1.84  0.32 -0.29 -1.36  1.84  0.28 -0.25 -1.20  1.84  0.22 -0.20 -1.04  1.84  0.17 -0.13 -0.88  1.84  0.16 -0.06 -0.72  1.84  0.12  0.01 -0.56  1.84  0.06  0.04 -0.40  1.84  0.05  0.04 -0.24  1.84  0.04  0.00 -0.08  1.84  0.02  0.04  0.08  1.84 -0.02  0.08  0.24  1.84 -0.06  0.08  0.40  1.84 -0.07  0.05  0.56  1.84 -0.06  0.02  0.72  1.84 -0.06 -0.04  0.88  1.84 -0.09 -0.06  1.04  1.84 -0.14 -0.08  1.20  1.84 -0.18 -0.13  1.36  1.84 -0.19 -0.21  1.52  1.84 -0.21 -0.30  1.68  1.84 -0.18 -0.33  1.84  1.84 -0.13 -0.32  2.00  1.84 -0.08 -0.26  2.16  1.84 -0.06 -0.13  2.32  1.84 -0.03  0.03  2.48  1.84 -0.05  0.15  2.64  1.84 -0.14  0.28  2.80  1.84 -0.19  0.53  2.96  1.84 -0.21  0.76  3.12  1.84 -0.24  0.91 -3.12  2.00  0.24  0.57 -2.96  2.00  0.22  0.41 -2.80  2.00  0.15  0.22 -2.64  2.00  0.08  0.09 -2.48  2.00  0.02  0.01 -2.32  2.00  0.05 -0.07 -2.16  2.00  0.12 -0.12 -2.00  2.00  0.17 -0.15 -1.84  2.00  0.23 -0.21 -1.68  2.00  0.29 -0.27 -1.52  2.00  0.31 -0.29 -1.36  2.00  0.30 -0.27 -1.20  2.00  0.24 -0.18 -1.04  2.00  0.20 -0.10 -0.88  2.00  0.16 -0.01 -0.72  2.00  0.11  0.03 -0.56  2.00  0.04  0.05 -0.40  2.00  0.04  0.07 -0.24  2.00  0.06  0.08 -0.08  2.00  0.03  0.08  0.08  2.00 -0.02  0.10  0.24  2.00 -0.05  0.11  0.40  2.00 -0.06  0.08  0.56  2.00 -0.06  0.04  0.72  2.00 -0.07 -0.03  0.88  2.00 -0.10 -0.07  1.04  2.00 -0.16 -0.10  1.20  2.00 -0.16 -0.13  1.36  2.00 -0.19 -0.22  1.52  2.00 -0.21 -0.30  1.68  2.00 -0.16 -0.33  1.84  2.00 -0.07 -0.30  2.00  2.00 -0.01 -0.25  2.16  2.00  0.02 -0.14  2.32  2.00 -0.02 -0.02  2.48  2.00 -0.09  0.08  2.64  2.00 -0.20  0.23  2.80  2.00 -0.25  0.46  2.96  2.00 -0.30  0.71  3.12  2.00 -0.36  0.80 -3.12  2.16  0.37  0.43 -2.96  2.16  0.34  0.31 -2.80  2.16  0.23  0.15 -2.64  2.16  0.12  0.01 -2.48  2.16  0.06 -0.06 -2.32  2.16  0.06 -0.10 -2.16  2.16  0.07 -0.11 -2.00  2.16  0.10 -0.09 -1.84  2.16  0.14 -0.08 -1.68  2.16  0.18 -0.17 -1.52  2.16  0.22 -0.25 -1.36  2.16  0.23 -0.22 -1.20  2.16  0.22 -0.15 -1.04  2.16  0.20 -0.05 -0.88  2.16  0.18 -0.01 -0.72  2.16  0.11  0.02 -0.56  2.16  0.07  0.05 -0.40  2.16  0.06  0.10 -0.24  2.16  0.06  0.14 -0.08  2.16  0.03  0.15  0.08  2.16 -0.01  0.13  0.24  2.16 -0.04  0.11  0.40  2.16 -0.08  0.10  0.56  2.16 -0.10  0.07  0.72  2.16 -0.09  0.02  0.88  2.16 -0.12 -0.05  1.04  2.16 -0.14 -0.11  1.20  2.16 -0.17 -0.16  1.36  2.16 -0.19 -0.19  1.52  2.16 -0.15 -0.22  1.68  2.16 -0.09 -0.22  1.84  2.16  0.00 -0.23  2.00  2.16  0.07 -0.20  2.16  2.16  0.08 -0.14  2.32  2.16  0.02 -0.08  2.48  2.16 -0.10  0.01  2.64  2.16 -0.21  0.16  2.80  2.16 -0.25  0.43  2.96  2.16 -0.34  0.64  3.12  2.16 -0.42  0.74 -3.12  2.32  0.47  0.31 -2.96  2.32  0.40  0.24 -2.80  2.32  0.27  0.08 -2.64  2.32  0.14 -0.07 -2.48  2.32  0.07 -0.13 -2.32  2.32  0.06 -0.15 -2.16  2.32  0.05 -0.11 -2.00  2.32  0.06 -0.04 -1.84  2.32  0.08 -0.00 -1.68  2.32  0.09 -0.04 -1.52  2.32  0.09 -0.10 -1.36  2.32  0.11 -0.10 -1.20  2.32  0.16 -0.05 -1.04  2.32  0.19 -0.04 -0.88  2.32  0.17 -0.02 -0.72  2.32  0.13  0.02 -0.56  2.32  0.08  0.09 -0.40  2.32  0.06  0.14 -0.24  2.32  0.03  0.17 -0.08  2.32  0.01  0.16  0.08  2.32 -0.01  0.15  0.24  2.32 -0.05  0.14  0.40  2.32 -0.10  0.11  0.56  2.32 -0.11  0.10  0.72  2.32 -0.11  0.07  0.88  2.32 -0.07 -0.01  1.04  2.32 -0.08 -0.07  1.20  2.32 -0.11 -0.10  1.36  2.32 -0.07 -0.09  1.52  2.32 -0.02 -0.06  1.68  2.32  0.03 -0.06  1.84  2.32  0.06 -0.12  2.00  2.32  0.07 -0.18  2.16  2.32  0.10 -0.16  2.32  2.32  0.08 -0.10  2.48  2.32 -0.02 -0.04  2.64  2.32 -0.16  0.11  2.80  2.32 -0.28  0.31  2.96  2.32 -0.41  0.52  3.12  2.32 -0.53  0.60 -3.12  2.48  0.49  0.24 -2.96  2.48  0.43  0.13 -2.80  2.48  0.30 -0.03 -2.64  2.48  0.18 -0.19 -2.48  2.48  0.08 -0.22 -2.32  2.48  0.06 -0.21 -2.16  2.48  0.04 -0.15 -2.00  2.48  0.03 -0.09 -1.84  2.48  0.01 -0.01 -1.68  2.48  0.00  0.05 -1.52  2.48 -0.04  0.07 -1.36  2.48 -0.01  0.10 -1.20  2.48  0.06  0.11 -1.04  2.48  0.10  0.06 -0.88  2.48  0.08  0.03 -0.72  2.48  0.05  0.08 -0.56  2.48  0.03  0.15 -0.40  2.48  0.01  0.19 -0.24  2.48 -0.01  0.19 -0.08  2.48 -0.05  0.19  0.08  2.48 -0.04  0.19  0.24  2.48 -0.06  0.19  0.40  2.48 -0.07  0.18  0.56  2.48 -0.08  0.16  0.72  2.48 -0.03  0.12  0.88  2.48  0.02  0.09  1.04  2.48  0.04  0.06  1.20  2.48  0.08  0.05  1.36  2.48  0.12  0.05  1.52  2.48  0.18  0.03  1.68  2.48  0.18  0.00  1.84  2.48  0.18 -0.06  2.00  2.48  0.11 -0.20  2.16  2.48  0.13 -0.22  2.32  2.48  0.14 -0.18  2.48  2.48  0.05 -0.11  2.64  2.48 -0.11 -0.01  2.80  2.48 -0.29  0.13  2.96  2.48 -0.48  0.29  3.12  2.48 -0.60  0.42 -3.12  2.64  0.44  0.15 -2.96  2.64  0.39  0.02 -2.80  2.64  0.29 -0.22 -2.64  2.64  0.17 -0.36 -2.48  2.64  0.07 -0.35 -2.32  2.64  0.02 -0.30 -2.16  2.64  0.01 -0.28 -2.00  2.64 -0.01 -0.20 -1.84  2.64 -0.06 -0.06 -1.68  2.64 -0.11  0.03 -1.52  2.64 -0.12  0.11 -1.36  2.64 -0.10  0.17 -1.20  2.64 -0.07  0.23 -1.04  2.64 -0.04  0.21 -0.88  2.64 -0.05  0.18 -0.72  2.64 -0.06  0.19 -0.56  2.64 -0.06  0.26 -0.40  2.64 -0.05  0.31 -0.24  2.64 -0.07  0.32 -0.08  2.64 -0.08  0.33  0.08  2.64 -0.08  0.31  0.24  2.64 -0.03  0.30  0.40  2.64 -0.01  0.30  0.56  2.64  0.05  0.29  0.72  2.64  0.09  0.24  0.88  2.64  0.14  0.20  1.04  2.64  0.19  0.19  1.20  2.64  0.26  0.18  1.36  2.64  0.30  0.12  1.52  2.64  0.33  0.03  1.68  2.64  0.34 -0.05  1.84  2.64  0.32 -0.10  2.00  2.64  0.27 -0.21  2.16  2.64  0.20 -0.33  2.32  2.64  0.15 -0.35  2.48  2.64  0.08 -0.28  2.64  2.64 -0.03 -0.17  2.80  2.64 -0.23 -0.06  2.96  2.64 -0.46  0.10  3.12  2.64 -0.55  0.22 -3.12  2.80  0.38 -0.04 -2.96  2.80  0.31 -0.20 -2.80  2.80  0.19 -0.39 -2.64  2.80  0.08 -0.49 -2.48  2.80 -0.01 -0.48 -2.32  2.80 -0.04 -0.47 -2.16  2.80 -0.11 -0.41 -2.00  2.80 -0.14 -0.29 -1.84  2.80 -0.21 -0.16 -1.68  2.80 -0.24 -0.01 -1.52  2.80 -0.23  0.07 -1.36  2.80 -0.22  0.16 -1.20  2.80 -0.26  0.27 -1.04  2.80 -0.23  0.33 -0.88  2.80 -0.17  0.34 -0.72  2.80 -0.18  0.38 -0.56  2.80 -0.17  0.45 -0.40  2.80 -0.14  0.49 -0.24  2.80 -0.12  0.52 -0.08  2.80 -0.10  0.54  0.08  2.80 -0.04  0.52  0.24  2.80  0.02  0.49  0.40  2.80  0.10  0.46  0.56  2.80  0.18  0.47  0.72  2.80  0.26  0.41  0.88  2.80  0.29  0.33  1.04  2.80  0.32  0.28  1.20  2.80  0.40  0.25  1.36  2.80  0.45  0.15  1.52  2.80  0.46  0.01  1.68  2.80  0.45 -0.13  1.84  2.80  0.48 -0.19  2.00  2.80  0.44 -0.29  2.16  2.80  0.34 -0.44  2.32  2.80  0.21 -0.57  2.48  2.80  0.16 -0.49  2.64  2.80  0.06 -0.37  2.80  2.80 -0.12 -0.22  2.96  2.80 -0.33 -0.12  3.12  2.80 -0.43 -0.06 -3.12  2.96  0.25 -0.25 -2.96  2.96  0.16 -0.38 -2.80  2.96  0.04 -0.54 -2.64  2.96 -0.04 -0.61 -2.48  2.96 -0.08 -0.70 -2.32  2.96 -0.14 -0.66 -2.16  2.96 -0.21 -0.56 -2.00  2.96 -0.27 -0.40 -1.84  2.96 -0.28 -0.24 -1.68  2.96 -0.34 -0.04 -1.52  2.96 -0.36  0.07 -1.36  2.96 -0.40  0.15 -1.20  2.96 -0.42  0.29 -1.04  2.96 -0.39  0.41 -0.88  2.96 -0.31  0.48 -0.72  2.96 -0.29  0.58 -0.56  2.96 -0.29  0.62 -0.40  2.96 -0.24  0.62 -0.24  2.96 -0.17  0.65 -0.08  2.96 -0.09  0.73  0.08  2.96  0.01  0.74  0.24  2.96  0.12  0.69  0.40  2.96  0.22  0.64  0.56  2.96  0.33  0.60  0.72  2.96  0.39  0.48  0.88  2.96  0.46  0.41  1.04  2.96  0.47  0.35  1.20  2.96  0.51  0.28  1.36  2.96  0.56  0.16  1.52  2.96  0.58 -0.01  1.68  2.96  0.55 -0.20  1.84  2.96  0.57 -0.32  2.00  2.96  0.53 -0.40  2.16  2.96  0.45 -0.51  2.32  2.96  0.34 -0.61  2.48  2.96  0.26 -0.64  2.64  2.96  0.15 -0.49  2.80  2.96 -0.02 -0.36  2.96  2.96 -0.20 -0.26  3.12  2.96 -0.31 -0.20 -3.12  3.12  0.06 -0.32 -2.96  3.12  0.04 -0.44 -2.80  3.12 -0.06 -0.61 -2.64  3.12 -0.11 -0.72 -2.48  3.12 -0.13 -0.80 -2.32  3.12 -0.21 -0.78 -2.16  3.12 -0.28 -0.66 -2.00  3.12 -0.29 -0.49 -1.84  3.12 -0.32 -0.28 -1.68  3.12 -0.38 -0.02 -1.52  3.12 -0.48  0.08 -1.36  3.12 -0.52  0.16 -1.20  3.12 -0.50  0.29 -1.04  3.12 -0.45  0.46 -0.88  3.12 -0.41  0.59 -0.72  3.12 -0.38  0.68 -0.56  3.12 -0.36  0.72 -0.40  3.12 -0.29  0.65 -0.24  3.12 -0.19  0.67 -0.08  3.12 -0.06  0.82  0.08  3.12  0.04  0.84  0.24  3.12  0.17  0.78  0.40  3.12  0.30  0.74  0.56  3.12  0.40  0.63  0.72  3.12  0.46  0.49  0.88  3.12  0.54  0.43  1.04  3.12  0.60  0.42  1.20  3.12  0.58  0.31  1.36  3.12  0.61  0.14  1.52  3.12  0.65 -0.02  1.68  3.12  0.64 -0.22  1.84  3.12  0.62 -0.40  2.00  3.12  0.58 -0.46  2.16  3.12  0.50 -0.50  2.32  3.12  0.43 -0.61  2.48  3.12  0.34 -0.60  2.64  3.12  0.16 -0.61  2.80  3.12  0.05 -0.42  2.96  3.12 -0.13 -0.24  3.12  3.12 -0.24 -0.22                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
